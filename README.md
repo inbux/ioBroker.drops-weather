@@ -24,13 +24,17 @@ Reading rain and temperature data from https://drops.live
 
 ### **WORK IN PROGRESS**
 
+-   (inbux)
+
+## v0.0.1 (2022-09-30)
+
 -   (inbux) initial release
 
 ## License
 
 MIT License
 
-Copyright (c) 2022 inbux <44289314+inbux@users.noreply.github.com>
+Copyright (c) 2022 inbux <inbux.development@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
