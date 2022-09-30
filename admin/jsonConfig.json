@@ -1,0 +1,11 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"location": {
+			"type": "text",
+			"label": "Location",
+			"newLine": true
+		}
+	}
+}
