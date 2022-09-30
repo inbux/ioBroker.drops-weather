@@ -89,7 +89,7 @@ class DropsWeather extends utils.Adapter {
 			if (response.status == 200) {
 				const $ = cheerio.load(response.data);
 				$('script').each((_, e) => {
-					let row = $(e).text();
+					const row = $(e).text();
 					if (row.indexOf('var weatherData') != -1) {
 						let data = row.substring(row.indexOf('var weatherData'));
 						data = data.split('=')[1];
