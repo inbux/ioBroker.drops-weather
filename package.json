@@ -1,6 +1,6 @@
 {
   "name": "iobroker.drops-weather",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Reading rain forecast from drops.live",
   "author": {
     "name": "inbux",
@@ -23,9 +23,9 @@
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.6",
     "axios": "^0.27.2",
-    "cheerio" :"^1.0.0-rc.12",
+    "cheerio": "^1.0.0-rc.12",
     "dayjs": "^1.11.5"
-   },
+  },
   "devDependencies": {
     "@alcalzone/release-script": "^3.5.9",
     "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
