@@ -68,7 +68,7 @@ class DropsWeather extends utils.Adapter {
 		this.drops = axios.create({
 			baseURL: `https://drops.live/`,
 			//insecureHTTPParser: true,
-			timeout: 5000,
+			timeout: 15000,
 			headers: {
 				'User-Agent': 'Mozilla',
 			},

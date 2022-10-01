@@ -21,6 +21,7 @@ Reading rain and temperature data from https://drops.live
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
 ### 0.1.1 (2022-09-30)
 
 -   (inbux)
@@ -29,7 +30,7 @@ Reading rain and temperature data from https://drops.live
 
 -   (inbux)
 
-## v0.0.1 (2022-09-30)
+### v0.0.1 (2022-09-30)
 
 -   (inbux) initial release
 
