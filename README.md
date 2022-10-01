@@ -28,6 +28,7 @@ Reading rain and temperature data from https://drops.live
 -   (inbux) axios timeout increased
 -   (inbux) changed some logs from error to warn
 -   (inbux) added some more error handling and log messages
+-   (inbux) fixed problem with city containing umlauts
 
 ### 0.1.1 (2022-09-30)
 
