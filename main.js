@@ -103,7 +103,7 @@ class DropsWeather extends utils.Adapter {
 				});
 			}
 		} catch (error) {
-			this.log.error(error);
+			this.log.warn(error);
 		}
 	}
 	//----------------------------------------------------------------------------------------------------
