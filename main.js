@@ -81,8 +81,8 @@ class DropsWeather extends utils.Adapter {
 				$('script').each((_, e) => {
 					const row = $(e).text();
 					//  weatherData array found ?
-					if (row.indexOf('weatherData found') != -1) {
-						this.log.debug('Ok. Parsing data...');
+					if (row.indexOf('var weatherData') != -1) {
+						this.log.debug('weatherData found');
 						let data = row.substring(row.indexOf('var weatherData'));
 						data = data.split('=')[1];
 						// locationData array found ? This is normally the next code line in HTML
@@ -102,7 +102,6 @@ class DropsWeather extends utils.Adapter {
 								this.createStateData(dataJSON.minutes, 'data_5min');
 								this.log.debug('creating 1 hour states');
 								this.createStateData(dataJSON.hours, 'data_1h');
-								this.log.info('Finished');
 							}
 						} else this.log.debug('locationData NOT found');
 					}
@@ -160,8 +159,8 @@ class DropsWeather extends utils.Adapter {
 			raindata = JSON.parse(JSON.stringify(raindata));
 			tempdata = JSON.parse(JSON.stringify(tempdata));
 
-			this.log.debug('Temperature: ' + JSON.stringify(JSONdata_temp));
-			this.log.debug('Rain: ' + JSON.stringify(JSONdata_rain));
+			this.log.debug(`Temperature (${channel}): ` + JSON.stringify(JSONdata_temp));
+			this.log.debug(`Rain (${channel}): ` + JSON.stringify(JSONdata_rain));
 
 			await this.setStateAsync(channel + '.chartTemperature', {
 				val: JSON.stringify(JSONdata_temp),
