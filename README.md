@@ -24,9 +24,10 @@ Reading rain and temperature data from https://drops.live
 
 ### **WORK IN PROGRESS**
 
+-   (inbux) added use of system configuration for gps coordinates
 -   (inbux) axios timeout increased
--   (inbux) changed some log from error to warn
--   (inbux) added some more error hadnling and log messages
+-   (inbux) changed some logs from error to warn
+-   (inbux) added some more error handling and log messages
 
 ### 0.1.1 (2022-09-30)
 
