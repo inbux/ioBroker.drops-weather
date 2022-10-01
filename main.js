@@ -42,24 +42,12 @@ class DropsWeather extends utils.Adapter {
 		// The adapters config (in the instance object everything under the attribute "native") is accessible via
 		// this.config:
 		//	this.log.info('config option1: ' + this.config.option1);
-		//	this.log.info('config option2: ' + this.config.option2);
 		/*
 		For every state in the system there has to be also an object of type state
 		Here a simple template for a boolean variable named "testVariable"
 		Because every adapter instance uses its own unique namespace variable names can't collide with other adapters variables
 		*/
-		/*	await this.setObjectNotExistsAsync('testVariable', {
-			type: 'state',
-			common: {
-				name: 'testVariable',
-				type: 'boolean',
-				role: 'indicator',
-				read: true,
-				write: true,
-			},
-			native: {},
-		});
-*/
+
 		if (!this.config.location) {
 			this.log.error(`Location is empty - please check instance configuration of ${this.namespace}`);
 			return;
@@ -84,23 +72,44 @@ class DropsWeather extends utils.Adapter {
 	async readDataFromServer() {
 		try {
 			this.log.info('Reading data from : https://drops.live/' + this.config.location);
-
+			let weatherdataFound = false;
 			const response = await this.drops.get(this.config.location);
 			if (response.status == 200) {
+				this.log.info('Ok. Parsing data...');
+				// if GET was successful...
 				const $ = cheerio.load(response.data);
 				$('script').each((_, e) => {
 					const row = $(e).text();
-					if (row.indexOf('var weatherData') != -1) {
+					//  weatherData array found ?
+					if (row.indexOf('weatherData found') != -1) {
+						this.log.debug('Ok. Parsing data...');
 						let data = row.substring(row.indexOf('var weatherData'));
 						data = data.split('=')[1];
-						data = data.substring(0, data.indexOf('var locationData'));
-						data = data.substring(0, data.indexOf('}]};') + 3);
-						const dataJSON = JSON.parse(data);
+						// locationData array found ? This is normally the next code line in HTML
+						if (data.indexOf('var locationData') != -1) {
+							this.log.debug('locationData found');
 
-						this.createStateData(dataJSON.minutes, 'data_5min');
-						this.createStateData(dataJSON.hours, 'data_1h');
+							data = data.substring(0, data.indexOf('var locationData'));
+							// end of weatherData array found ?
+							if (data.indexOf('}]};') != -1) {
+								weatherdataFound = true;
+
+								data = data.substring(0, data.indexOf('}]};') + 3);
+
+								const dataJSON = JSON.parse(data);
+
+								this.log.debug('creating 5 min states');
+								this.createStateData(dataJSON.minutes, 'data_5min');
+								this.log.debug('creating 1 hour states');
+								this.createStateData(dataJSON.hours, 'data_1h');
+								this.log.info('Finished');
+							}
+						} else this.log.debug('locationData NOT found');
 					}
 				});
+			}
+			if (!weatherdataFound) {
+				this.log.warn('no weatherData found in HTML');
 			}
 		} catch (error) {
 			this.log.warn(error);
