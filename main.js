@@ -106,7 +106,7 @@ class DropsWeather extends utils.Adapter {
 		try {
 			this.log.info('Reading data from : https://drops.live/' + this.location);
 			let weatherdataFound = false;
-			const response = await this.drops.get(this.location);
+			const response = await this.drops.get(encodeURI(this.location), { responseType: 'blob' });
 			if (response.status == 200) {
 				this.log.info('Ok. Parsing data...');
 				// if GET was successful...
