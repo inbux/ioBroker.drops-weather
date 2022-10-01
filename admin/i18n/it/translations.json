@@ -1,5 +1,8 @@
 {
-    "drops-weather adapter settings": "Impostazioni dell'adattatore per drops-weather",
-    "option1": "opzione 1",
-    "option2": "opzione 2"
+    "Adapter settings for drops-weather": "Impostazioni dell'adattatore per le cadute",
+    "Location": "Posizione",
+    "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')": "Inserisci la tua città (es. 'Berlino') o posizione in latitudine, longitudine (es. '52.52437,13.41053')",
+    "You can use the location data from the system configuration or insert your own city / GPS coordinates": "Puoi utilizzare i dati sulla posizione dalla configurazione del sistema o inserire la tua città/coordinate GPS",
+    "Use GPS coordinates from system configuration": "Usa le coordinate GPS dalla configurazione del sistema",
+    "Options": "Opzioni"
 }

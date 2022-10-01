@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const dayjs = require('dayjs');
 const axios = require('axios').default;
 let interval = null;
+let starttimeout;
 
 /*
  * Created with @iobroker/create-adapter v2.3.0
@@ -26,6 +27,7 @@ class DropsWeather extends utils.Adapter {
 		});
 
 		this.drops = null;
+		this.location = '';
 
 		this.on('ready', this.onReady.bind(this));
 		//this.on('stateChange', this.onStateChange.bind(this));
@@ -48,10 +50,8 @@ class DropsWeather extends utils.Adapter {
 		Because every adapter instance uses its own unique namespace variable names can't collide with other adapters variables
 		*/
 
-		if (!this.config.location) {
-			this.log.error(`Location is empty - please check instance configuration of ${this.namespace}`);
-			return;
-		}
+		// use system configuration or user defined location
+		await this.getLocation();
 
 		this.drops = axios.create({
 			baseURL: `https://drops.live/`,
@@ -61,19 +61,52 @@ class DropsWeather extends utils.Adapter {
 				'User-Agent': 'Mozilla',
 			},
 		});
-
-		this.readDataFromServer();
+		// wait some time, because getting system configuration location take some time
+		// not really a smart way just to wait, but how can it be done ?
+		starttimeout = setTimeout(() => {
+			this.log.debug('Location: ' + this.location);
+			if (this.location === null || this.location === '') {
+				this.log.error(`Location not set - please check instance configuration of ${this.namespace}`);
+			} else this.readDataFromServer();
+		}, 2000);
 
 		interval = setInterval(() => {
-			this.readDataFromServer();
+			if (this.location === null || this.location === '') {
+				clearInterval(interval);
+			} else {
+				this.readDataFromServer();
+			}
 		}, 5 * 60 * 1000);
+	}
+	//----------------------------------------------------------------------------------------------------
+	async getLocation() {
+		if (this.config.useSystemLocation) {
+			this.log.debug('using systems configuration location');
+			this.getForeignObject('system.config', (err, state) => {
+				if (
+					err ||
+					state === undefined ||
+					state === null ||
+					state.common.longitude === '' ||
+					state.common.latitude === ''
+				) {
+					this.log.error(
+						`longitude/latitude not set in system-config- please check instance configuration of ${this.namespace}`,
+					);
+				} else {
+					this.location = state.common.latitude + ',' + state.common.longitude;
+				}
+			});
+		} else {
+			this.location = this.config.location;
+		}
 	}
 	//----------------------------------------------------------------------------------------------------
 	async readDataFromServer() {
 		try {
-			this.log.info('Reading data from : https://drops.live/' + this.config.location);
+			this.log.info('Reading data from : https://drops.live/' + this.location);
 			let weatherdataFound = false;
-			const response = await this.drops.get(this.config.location);
+			const response = await this.drops.get(this.location);
 			if (response.status == 200) {
 				this.log.info('Ok. Parsing data...');
 				// if GET was successful...
@@ -102,7 +135,7 @@ class DropsWeather extends utils.Adapter {
 								this.createStateData(dataJSON.minutes, 'data_5min');
 								this.log.debug('creating 1 hour states');
 								this.createStateData(dataJSON.hours, 'data_1h');
-							}
+							} else this.log.debug('end of array NOT found');
 						} else this.log.debug('locationData NOT found');
 					}
 				});
@@ -186,7 +219,7 @@ class DropsWeather extends utils.Adapter {
 			// clearTimeout(timeout2);
 			// ...
 			clearInterval(interval);
-
+			clearTimeout(starttimeout);
 			callback();
 		} catch (e) {
 			callback();

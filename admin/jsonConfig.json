@@ -1,11 +1,36 @@
 {
 	"i18n": true,
-	"type": "panel",
+	"type": "tabs",
 	"items": {
-		"location": {
-			"type": "text",
-			"label": "Location",
-			"newLine": true
+		"_options": {
+			"type": "panel",
+			"label": "Options",
+			"items": {
+				"infoText": {
+					"type": "staticText",
+					"text": "You can use the location data from the system configuration or insert your own city / GPS coordinates",
+					"newLine": true
+				},
+				"useSystemLocation": {
+					"type": "checkbox",
+					"label": "Use GPS coordinates from system configuration",
+					"default": true,
+					"newLine": true
+				},
+				"locationText": {
+					"type": "staticText",
+					"text": "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')",
+					"hidden": "data.useSystemLocation === true",
+					"newLine": true
+				},
+				"location": {
+					"md": 6,
+					"type": "text",
+					"label": "Location",
+					"hidden": "data.useSystemLocation === true",
+					"newLine": true
+				}
+			}
 		}
 	}
 }
