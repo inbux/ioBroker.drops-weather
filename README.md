@@ -21,8 +21,7 @@ Reading rain and temperature data from https://drops.live
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.2.0 (2022-10-01)
 
 -   (inbux) added use of system configuration for gps coordinates
 -   (inbux) axios timeout increased
