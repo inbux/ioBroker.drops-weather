@@ -1,6 +1,8 @@
 'use strict';
 const cheerio = require('cheerio');
 const dayjs = require('dayjs');
+require('dayjs/locale/de');
+
 const axios = require('axios').default;
 let interval = null;
 let starttimeout;
@@ -52,6 +54,7 @@ class DropsWeather extends utils.Adapter {
 
 		// use system configuration or user defined location
 		await this.getLocation();
+		await this.getLanguage();
 
 		this.drops = axios.create({
 			baseURL: `https://drops.live/`,
@@ -100,6 +103,19 @@ class DropsWeather extends utils.Adapter {
 		} else {
 			this.location = this.config.location;
 		}
+	}
+	//----------------------------------------------------------------------------------------------------
+	async getLanguage() {
+		this.log.debug('getting system language');
+		this.getForeignObject('system.config', (err, state) => {
+			if (err || state === undefined || state === null || state.common.language === '') {
+				this.log.warn(`no language set in system configuration of ioBroker`);
+			} else {
+				this.log.debug(state.common.language);
+				if (state.common.language === 'de') dayjs.locale('de');
+				else dayjs.locale('en');
+			}
+		});
 	}
 	//----------------------------------------------------------------------------------------------------
 	async readDataFromServer() {
@@ -165,6 +181,7 @@ class DropsWeather extends utils.Adapter {
 			await this.setStateAsync(channel + '.isRainingNow', { val: isRainingNow, ack: true });
 
 			await this.setStateAsync(channel + '.timestamp', { val: data[0].date, ack: true });
+			await this.setStateAsync(channel + '.actualRain', { val: data[0].rain, ack: true });
 
 			for (const i in data) {
 				raindata.push(data[i].rain);
@@ -174,7 +191,7 @@ class DropsWeather extends utils.Adapter {
 
 				const date = dayjs(data[i].date);
 
-				if (rainStartsAt == '-1') if (data[i].rain > 0) rainStartsAt = date.format(dateformat).toString();
+				if (rainStartsAt == '-1') if (data[i].rain > 0) rainStartsAt = date.format('YYYY-MM-DDTHH:mm:ssZ');
 
 				//this.log.debug(date.format('HH:mm').toString());
 

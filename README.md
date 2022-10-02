@@ -32,11 +32,16 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 <!--
 	Placeholder for the next version (at the beginning of the line):
+	-   (inbux)
+
 	### **WORK IN PROGRESS**
 -->
 
 ### **WORK IN PROGRESS**
 
+-   (inbux) added actualRain
+-   (inbux) reading system language for weekdays localization
+-   (inbux) changed rainStartsAt to timestamp
 -   (inbux) updated README.md
 
 ### 0.2.0 (2022-10-01)

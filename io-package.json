@@ -1,482 +1,524 @@
 {
-  "common": {
-    "name": "drops-weather",
-    "version": "0.2.0",
-    "news": {
-      "0.2.0": {
-        "en": "added use of system configuration for gps coordinates\naxios timeout increased\nchanged some logs from error to warn\nadded some more error handling and log messages\nfixed problem with city containing umlauts",
-        "de": "verwendung der systemkonfiguration für gps-koordinaten\naxios timeout erhöht\neinige protokolle von fehler zu warn geändert\neinige weitere fehlerbehandlung und log-nachrichten hinzugefügt\nproblem mit stadt mit umlauts",
-        "ru": "добавлено использование конфигурации системы для gps координат\naxios timeout увеличилось\nизменил некоторые журналы из ошибки, чтобы предупредить\nдобавил еще некоторые ошибки обработки и лог сообщений\nфиксированная проблема с городом, содержащий umlauts",
-        "pt": "uso adicionado da configuração do sistema para coordenadas de gps\naumento do tempo de axios\nmudou alguns registros de erro para avisar\nadicionou mais algumas mensagens de manipulação de erros e log\nproblema fixo com cidade contendo umlauts",
-        "nl": "voegde gebruik van systeemconfiguratie toe voor gps-coördinaten\nquality over quantity (qoq) releases vertaling:\nveranderde logboeken van fouten om te waarschuwen\nvoegde meer fouten toe en logberichten\n_",
-        "fr": "utilisation supplémentaire de la configuration système pour les coordonnées gps\naxios timeout increased\na changé quelques logs de l'erreur pour prévenir\najouté quelques autres erreurs de manipulation et les messages journaux\nproblème fixe avec la ville contenant umlauts",
-        "it": "uso aggiunto della configurazione di sistema per coordinate gps\ntimeout assios aumentato\nha cambiato alcuni registri da errore per avvertire\naggiunto alcuni errori di gestione e messaggi di registro\nproblema fisso con la città contenente umlauts",
-        "es": "uso añadido de la configuración del sistema para coordenadas gps\naumento del tiempo de axios\ncambió algunos registros de error a advertir\nañadido algunos mensajes de error y registro\nproblema fijo con ciudad que contiene umlauts",
-        "pl": "dodanie konfiguracji systemu dla współrzędnych gps\nczas axisowy wzrastał\nzmieniło się to z błędu, aby ostrzec ostrzeżenie\ndodał więcej błędów i wiadomości logicznych\nstały problem z miastem zawierającym umlauty",
-        "zh-cn": "b. 增加使用系统配置坐标\na 时间缩短\n从错误改为战争的一些逻辑变化\n增加一些错误处理和逻辑信息\n城市的固定问题"
-      },
-      "0.1.1": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "pt": "",
-        "nl": "",
-        "fr": "",
-        "it": "",
-        "es": "",
-        "pl": "",
-        "zh-cn": ""
-      },
-      "0.1.0": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "pt": "",
-        "nl": "",
-        "fr": "",
-        "it": "",
-        "es": "",
-        "pl": "",
-        "zh-cn": ""
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "zh-cn": "首次出版"
-      }
-    },
-    "title": "Drops Weather",
-    "titleLang": {
-      "en": "Drops Weather",
-      "de": "Drops Weather",
-      "ru": "Drops Weather",
-      "pt": "Drops Weather",
-      "nl": "Drops Weather",
-      "fr": "Drops Weather",
-      "it": "Drops Weather",
-      "es": "Drops Weather",
-      "pl": "Drops Weather",
-      "zh-cn": "Drops Weather"
-    },
-    "desc": {
-      "en": "Reading rain forecast from drops.live",
-      "de": "Lesen der Regenvorhersage von drops.live",
-      "ru": "Чтение прогноза дождя от drop.live",
-      "pt": "Lendo a previsão de chuva de drops.live",
-      "nl": "Regenvoorspelling lezen van drops.live",
-      "fr": "Lire les prévisions de pluie sur drops.live",
-      "it": "Lettura delle previsioni di pioggia da drops.live",
-      "es": "Lectura del pronóstico de lluvia de drops.live",
-      "pl": "Czytanie prognozy deszczu z drops.live",
-      "zh-cn": "从drops.live读取降雨预报"
-    },
-    "authors": [
-      "inbux <44289314+inbux@users.noreply.github.com>"
-    ],
-    "keywords": [
-      "weather",
-      "rain",
-      "forecast"
-    ],
-    "license": "MIT",
-    "platform": "Javascript/Node.js",
-    "main": "main.js",
-    "icon": "drops-weather.png",
-    "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/inbux/ioBroker.drops-weather/main/admin/drops-weather.png",
-    "readme": "https://github.com/inbux/ioBroker.drops-weather/blob/main/README.md",
-    "loglevel": "info",
-    "mode": "daemon",
-    "type": "weather",
-    "compact": true,
-    "connectionType": "cloud",
-    "dataSource": "poll",
-    "adminUI": {
-      "config": "json"
-    },
-    "dependencies": [
-      {
-        "js-controller": ">=3.3.22"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=5.1.13"
-      }
-    ]
-  },
-  "native": {
-    "location": "Berlin",
-    "useSystemLocation": true
-  },
-  "objects": [],
-  "instanceObjects": [
-    {
-      "_id": "data_5min",
-      "type": "channel",
-      "common": {
-        "name": {
-          "en": "5 minutes data",
-          "de": "5 minutes data",
-          "ru": "5 minutes data",
-          "pt": "5 minutes data",
-          "nl": "5 minutes data",
-          "fr": "5 minutes data",
-          "it": "5 minutes data",
-          "es": "5 minutes data",
-          "pl": "5 minutes data",
-          "zh-cn": "5 minutes data"
-        }
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h",
-      "type": "channel",
-      "common": {
-        "name": {
-          "en": "1 hour data",
-          "de": "1 hour data",
-          "ru": "1 hour data",
-          "pt": "1 hour data",
-          "nl": "1 hour data",
-          "fr": "1 hour data",
-          "it": "1 hour data",
-          "es": "1 hour data",
-          "pl": "1 hour data",
-          "zh-cn": "1 hour data"
-        }
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.chartRain",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "JSON_Chart_Rain",
-          "de": "JSON_Chart_Rain",
-          "ru": "JSON_Chart_Rain",
-          "pt": "JSON_Chart_Rain",
-          "nl": "JSON_Chart_Rain",
-          "fr": "JSON_Chart_Rain",
-          "it": "JSON_Chart_Rain",
-          "es": "JSON_Chart_Rain",
-          "pl": "JSON_Chart_Rain",
-          "zh-cn": "JSON_Chart_Rain"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.chartTemperature",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "JSON_Chart_Temperature",
-          "de": "JSON_Chart_Temperature",
-          "ru": "JSON_Chart_Temperature",
-          "pt": "JSON_Chart_Temperature",
-          "nl": "JSON_Chart_Temperature",
-          "fr": "JSON_Chart_Temperature",
-          "it": "JSON_Chart_Temperature",
-          "es": "JSON_Chart_Temperature",
-          "pl": "JSON_Chart_Temperature",
-          "zh-cn": "JSON_Chart_Temperature"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.timestamp",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Timestamp",
-          "de": "Timestamp",
-          "ru": "Timestamp",
-          "pt": "Timestamp",
-          "nl": "Timestamp",
-          "fr": "Timestamp",
-          "it": "Timestamp",
-          "es": "Timestamp",
-          "pl": "Timestamp",
-          "zh-cn": "Timestamp"
-        },
-        "type": "string",
-        "role": "value.time",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.raindata",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Raindata",
-          "de": "Raindata",
-          "ru": "Raindata",
-          "pt": "Raindata",
-          "nl": "Raindata",
-          "fr": "Raindata",
-          "it": "Raindata",
-          "es": "Raindata",
-          "pl": "Raindata",
-          "zh-cn": "Raindata"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.rainStartsAt",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Raindata",
-          "de": "Raindata",
-          "ru": "Raindata",
-          "pt": "Raindata",
-          "nl": "Raindata",
-          "fr": "Raindata",
-          "it": "Raindata",
-          "es": "Raindata",
-          "pl": "Raindata",
-          "zh-cn": "Raindata"
-        },
-        "type": "string",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.isRainingNow",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "isRainingNow",
-          "de": "isRainingNow",
-          "ru": "isRainingNow",
-          "pt": "isRainingNow",
-          "nl": "isRainingNow",
-          "fr": "isRainingNow",
-          "it": "isRainingNow",
-          "es": "isRainingNow",
-          "pl": "isRainingNow",
-          "zh-cn": "isRainingNow"
-        },
-        "type": "boolean",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_5min.tempdata",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Temperature",
-          "de": "Temperature",
-          "ru": "Temperature",
-          "pt": "Temperature",
-          "nl": "Temperature",
-          "fr": "Temperature",
-          "it": "Temperature",
-          "es": "Temperature",
-          "pl": "Temperature",
-          "zh-cn": "Temperature"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.chartRain",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "JSON_Chart_Rain",
-          "de": "JSON_Chart_Rain",
-          "ru": "JSON_Chart_Rain",
-          "pt": "JSON_Chart_Rain",
-          "nl": "JSON_Chart_Rain",
-          "fr": "JSON_Chart_Rain",
-          "it": "JSON_Chart_Rain",
-          "es": "JSON_Chart_Rain",
-          "pl": "JSON_Chart_Rain",
-          "zh-cn": "JSON_Chart_Rain"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.chartTemperature",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "JSON_Chart_Temperature",
-          "de": "JSON_Chart_Temperature",
-          "ru": "JSON_Chart_Temperature",
-          "pt": "JSON_Chart_Temperature",
-          "nl": "JSON_Chart_Temperature",
-          "fr": "JSON_Chart_Temperature",
-          "it": "JSON_Chart_Temperature",
-          "es": "JSON_Chart_Temperature",
-          "pl": "JSON_Chart_Temperature",
-          "zh-cn": "JSON_Chart_Temperature"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.timestamp",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Timestamp",
-          "de": "Timestamp",
-          "ru": "Timestamp",
-          "pt": "Timestamp",
-          "nl": "Timestamp",
-          "fr": "Timestamp",
-          "it": "Timestamp",
-          "es": "Timestamp",
-          "pl": "Timestamp",
-          "zh-cn": "Timestamp"
-        },
-        "type": "string",
-        "role": "value.time",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.raindata",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Raindata",
-          "de": "Raindata",
-          "ru": "Raindata",
-          "pt": "Raindata",
-          "nl": "Raindata",
-          "fr": "Raindata",
-          "it": "Raindata",
-          "es": "Raindata",
-          "pl": "Raindata",
-          "zh-cn": "Raindata"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.rainStartsAt",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Raindata",
-          "de": "Raindata",
-          "ru": "Raindata",
-          "pt": "Raindata",
-          "nl": "Raindata",
-          "fr": "Raindata",
-          "it": "Raindata",
-          "es": "Raindata",
-          "pl": "Raindata",
-          "zh-cn": "Raindata"
-        },
-        "type": "string",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.isRainingNow",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "isRainingNow",
-          "de": "isRainingNow",
-          "ru": "isRainingNow",
-          "pt": "isRainingNow",
-          "nl": "isRainingNow",
-          "fr": "isRainingNow",
-          "it": "isRainingNow",
-          "es": "isRainingNow",
-          "pl": "isRainingNow",
-          "zh-cn": "isRainingNow"
-        },
-        "type": "boolean",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "data_1h.tempdata",
-      "type": "state",
-      "common": {
-        "name": {
-          "en": "Temperature",
-          "de": "Temperature",
-          "ru": "Temperature",
-          "pt": "Temperature",
-          "nl": "Temperature",
-          "fr": "Temperature",
-          "it": "Temperature",
-          "es": "Temperature",
-          "pl": "Temperature",
-          "zh-cn": "Temperature"
-        },
-        "type": "json",
-        "role": "text",
-        "read": true,
-        "write": false
-      },
-      "native": {}
-    }
-  ]
+	"common": {
+		"name": "drops-weather",
+		"version": "0.2.0",
+		"news": {
+			"0.2.0": {
+				"en": "added use of system configuration for gps coordinates\naxios timeout increased\nchanged some logs from error to warn\nadded some more error handling and log messages\nfixed problem with city containing umlauts",
+				"de": "verwendung der systemkonfiguration für gps-koordinaten\naxios timeout erhöht\neinige protokolle von fehler zu warn geändert\neinige weitere fehlerbehandlung und log-nachrichten hinzugefügt\nproblem mit stadt mit umlauts",
+				"ru": "добавлено использование конфигурации системы для gps координат\naxios timeout увеличилось\nизменил некоторые журналы из ошибки, чтобы предупредить\nдобавил еще некоторые ошибки обработки и лог сообщений\nфиксированная проблема с городом, содержащий umlauts",
+				"pt": "uso adicionado da configuração do sistema para coordenadas de gps\naumento do tempo de axios\nmudou alguns registros de erro para avisar\nadicionou mais algumas mensagens de manipulação de erros e log\nproblema fixo com cidade contendo umlauts",
+				"nl": "voegde gebruik van systeemconfiguratie toe voor gps-coördinaten\nquality over quantity (qoq) releases vertaling:\nveranderde logboeken van fouten om te waarschuwen\nvoegde meer fouten toe en logberichten\n_",
+				"fr": "utilisation supplémentaire de la configuration système pour les coordonnées gps\naxios timeout increased\na changé quelques logs de l'erreur pour prévenir\najouté quelques autres erreurs de manipulation et les messages journaux\nproblème fixe avec la ville contenant umlauts",
+				"it": "uso aggiunto della configurazione di sistema per coordinate gps\ntimeout assios aumentato\nha cambiato alcuni registri da errore per avvertire\naggiunto alcuni errori di gestione e messaggi di registro\nproblema fisso con la città contenente umlauts",
+				"es": "uso añadido de la configuración del sistema para coordenadas gps\naumento del tiempo de axios\ncambió algunos registros de error a advertir\nañadido algunos mensajes de error y registro\nproblema fijo con ciudad que contiene umlauts",
+				"pl": "dodanie konfiguracji systemu dla współrzędnych gps\nczas axisowy wzrastał\nzmieniło się to z błędu, aby ostrzec ostrzeżenie\ndodał więcej błędów i wiadomości logicznych\nstały problem z miastem zawierającym umlauty",
+				"zh-cn": "b. 增加使用系统配置坐标\na 时间缩短\n从错误改为战争的一些逻辑变化\n增加一些错误处理和逻辑信息\n城市的固定问题"
+			},
+			"0.1.1": {
+				"en": "",
+				"de": "",
+				"ru": "",
+				"pt": "",
+				"nl": "",
+				"fr": "",
+				"it": "",
+				"es": "",
+				"pl": "",
+				"zh-cn": ""
+			},
+			"0.1.0": {
+				"en": "",
+				"de": "",
+				"ru": "",
+				"pt": "",
+				"nl": "",
+				"fr": "",
+				"it": "",
+				"es": "",
+				"pl": "",
+				"zh-cn": ""
+			},
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Drops Weather",
+		"titleLang": {
+			"en": "Drops Weather",
+			"de": "Drops Weather",
+			"ru": "Drops Weather",
+			"pt": "Drops Weather",
+			"nl": "Drops Weather",
+			"fr": "Drops Weather",
+			"it": "Drops Weather",
+			"es": "Drops Weather",
+			"pl": "Drops Weather",
+			"zh-cn": "Drops Weather"
+		},
+		"desc": {
+			"en": "Reading rain forecast from drops.live",
+			"de": "Lesen der Regenvorhersage von drops.live",
+			"ru": "Чтение прогноза дождя от drop.live",
+			"pt": "Lendo a previsão de chuva de drops.live",
+			"nl": "Regenvoorspelling lezen van drops.live",
+			"fr": "Lire les prévisions de pluie sur drops.live",
+			"it": "Lettura delle previsioni di pioggia da drops.live",
+			"es": "Lectura del pronóstico de lluvia de drops.live",
+			"pl": "Czytanie prognozy deszczu z drops.live",
+			"zh-cn": "从drops.live读取降雨预报"
+		},
+		"authors": ["inbux <44289314+inbux@users.noreply.github.com>"],
+		"keywords": ["weather", "rain", "forecast"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "drops-weather.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/inbux/ioBroker.drops-weather/main/admin/drops-weather.png",
+		"readme": "https://github.com/inbux/ioBroker.drops-weather/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "weather",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"location": "Berlin",
+		"useSystemLocation": true
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "data_5min",
+			"type": "channel",
+			"common": {
+				"name": {
+					"en": "5 minutes data",
+					"de": "5 minutes data",
+					"ru": "5 minutes data",
+					"pt": "5 minutes data",
+					"nl": "5 minutes data",
+					"fr": "5 minutes data",
+					"it": "5 minutes data",
+					"es": "5 minutes data",
+					"pl": "5 minutes data",
+					"zh-cn": "5 minutes data"
+				}
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h",
+			"type": "channel",
+			"common": {
+				"name": {
+					"en": "1 hour data",
+					"de": "1 hour data",
+					"ru": "1 hour data",
+					"pt": "1 hour data",
+					"nl": "1 hour data",
+					"fr": "1 hour data",
+					"it": "1 hour data",
+					"es": "1 hour data",
+					"pl": "1 hour data",
+					"zh-cn": "1 hour data"
+				}
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.chartRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "JSON_Chart_Rain",
+					"de": "JSON_Chart_Rain",
+					"ru": "JSON_Chart_Rain",
+					"pt": "JSON_Chart_Rain",
+					"nl": "JSON_Chart_Rain",
+					"fr": "JSON_Chart_Rain",
+					"it": "JSON_Chart_Rain",
+					"es": "JSON_Chart_Rain",
+					"pl": "JSON_Chart_Rain",
+					"zh-cn": "JSON_Chart_Rain"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.chartTemperature",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "JSON_Chart_Temperature",
+					"de": "JSON_Chart_Temperature",
+					"ru": "JSON_Chart_Temperature",
+					"pt": "JSON_Chart_Temperature",
+					"nl": "JSON_Chart_Temperature",
+					"fr": "JSON_Chart_Temperature",
+					"it": "JSON_Chart_Temperature",
+					"es": "JSON_Chart_Temperature",
+					"pl": "JSON_Chart_Temperature",
+					"zh-cn": "JSON_Chart_Temperature"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.timestamp",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Timestamp",
+					"de": "Timestamp",
+					"ru": "Timestamp",
+					"pt": "Timestamp",
+					"nl": "Timestamp",
+					"fr": "Timestamp",
+					"it": "Timestamp",
+					"es": "Timestamp",
+					"pl": "Timestamp",
+					"zh-cn": "Timestamp"
+				},
+				"type": "string",
+				"role": "value.time",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.raindata",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Raindata",
+					"de": "Raindata",
+					"ru": "Raindata",
+					"pt": "Raindata",
+					"nl": "Raindata",
+					"fr": "Raindata",
+					"it": "Raindata",
+					"es": "Raindata",
+					"pl": "Raindata",
+					"zh-cn": "Raindata"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.rainStartsAt",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Raindata",
+					"de": "Raindata",
+					"ru": "Raindata",
+					"pt": "Raindata",
+					"nl": "Raindata",
+					"fr": "Raindata",
+					"it": "Raindata",
+					"es": "Raindata",
+					"pl": "Raindata",
+					"zh-cn": "Raindata"
+				},
+				"type": "string",
+				"role": "value.time",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.isRainingNow",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "isRainingNow",
+					"de": "isRainingNow",
+					"ru": "isRainingNow",
+					"pt": "isRainingNow",
+					"nl": "isRainingNow",
+					"fr": "isRainingNow",
+					"it": "isRainingNow",
+					"es": "isRainingNow",
+					"pl": "isRainingNow",
+					"zh-cn": "isRainingNow"
+				},
+				"type": "boolean",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.actualRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "rain in mm/m2",
+					"de": "rain in mm/m2",
+					"ru": "rain in mm/m2",
+					"pt": "rain in mm/m2",
+					"nl": "rain in mm/m2",
+					"fr": "rain in mm/m2",
+					"it": "rain in mm/m2",
+					"es": "rain in mm/m2",
+					"pl": "rain in mm/m2",
+					"zh-cn": "rain in mm/m2"
+				},
+				"type": "number",
+				"unit": "mm/m2",
+				"role": "value.rain",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_5min.tempdata",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Temperature",
+					"de": "Temperature",
+					"ru": "Temperature",
+					"pt": "Temperature",
+					"nl": "Temperature",
+					"fr": "Temperature",
+					"it": "Temperature",
+					"es": "Temperature",
+					"pl": "Temperature",
+					"zh-cn": "Temperature"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.chartRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "JSON_Chart_Rain",
+					"de": "JSON_Chart_Rain",
+					"ru": "JSON_Chart_Rain",
+					"pt": "JSON_Chart_Rain",
+					"nl": "JSON_Chart_Rain",
+					"fr": "JSON_Chart_Rain",
+					"it": "JSON_Chart_Rain",
+					"es": "JSON_Chart_Rain",
+					"pl": "JSON_Chart_Rain",
+					"zh-cn": "JSON_Chart_Rain"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.chartTemperature",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "JSON_Chart_Temperature",
+					"de": "JSON_Chart_Temperature",
+					"ru": "JSON_Chart_Temperature",
+					"pt": "JSON_Chart_Temperature",
+					"nl": "JSON_Chart_Temperature",
+					"fr": "JSON_Chart_Temperature",
+					"it": "JSON_Chart_Temperature",
+					"es": "JSON_Chart_Temperature",
+					"pl": "JSON_Chart_Temperature",
+					"zh-cn": "JSON_Chart_Temperature"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.timestamp",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Timestamp",
+					"de": "Timestamp",
+					"ru": "Timestamp",
+					"pt": "Timestamp",
+					"nl": "Timestamp",
+					"fr": "Timestamp",
+					"it": "Timestamp",
+					"es": "Timestamp",
+					"pl": "Timestamp",
+					"zh-cn": "Timestamp"
+				},
+				"type": "string",
+				"role": "value.time",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.raindata",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Raindata",
+					"de": "Raindata",
+					"ru": "Raindata",
+					"pt": "Raindata",
+					"nl": "Raindata",
+					"fr": "Raindata",
+					"it": "Raindata",
+					"es": "Raindata",
+					"pl": "Raindata",
+					"zh-cn": "Raindata"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.rainStartsAt",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Raindata",
+					"de": "Raindata",
+					"ru": "Raindata",
+					"pt": "Raindata",
+					"nl": "Raindata",
+					"fr": "Raindata",
+					"it": "Raindata",
+					"es": "Raindata",
+					"pl": "Raindata",
+					"zh-cn": "Raindata"
+				},
+				"type": "string",
+				"role": "value.time",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.isRainingNow",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "isRainingNow",
+					"de": "isRainingNow",
+					"ru": "isRainingNow",
+					"pt": "isRainingNow",
+					"nl": "isRainingNow",
+					"fr": "isRainingNow",
+					"it": "isRainingNow",
+					"es": "isRainingNow",
+					"pl": "isRainingNow",
+					"zh-cn": "isRainingNow"
+				},
+				"type": "boolean",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.actualRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "rain in mm/m2",
+					"de": "rain in mm/m2",
+					"ru": "rain in mm/m2",
+					"pt": "rain in mm/m2",
+					"nl": "rain in mm/m2",
+					"fr": "rain in mm/m2",
+					"it": "rain in mm/m2",
+					"es": "rain in mm/m2",
+					"pl": "rain in mm/m2",
+					"zh-cn": "rain in mm/m2"
+				},
+				"type": "number",
+				"unit": "mm/m2",
+				"role": "value.rain",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "data_1h.tempdata",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "Temperature",
+					"de": "Temperature",
+					"ru": "Temperature",
+					"pt": "Temperature",
+					"nl": "Temperature",
+					"fr": "Temperature",
+					"it": "Temperature",
+					"es": "Temperature",
+					"pl": "Temperature",
+					"zh-cn": "Temperature"
+				},
+				"type": "json",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		}
+	]
 }
