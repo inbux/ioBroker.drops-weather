@@ -67,10 +67,12 @@ class DropsWeather extends utils.Adapter {
 		// wait some time, because getting system configuration location take some time
 		// not really a smart way just to wait, but how can it be done ?
 		starttimeout = setTimeout(() => {
-			this.log.debug('Location: ' + this.location);
 			if (this.location === null || this.location === '') {
 				this.log.error(`Location not set - please check instance configuration of ${this.namespace}`);
-			} else this.readDataFromServer();
+			} else {
+				this.log.info('Reading data from : https://drops.live/' + this.location);
+				this.readDataFromServer();
+			}
 		}, 2000);
 
 		interval = setInterval(() => {
@@ -120,11 +122,11 @@ class DropsWeather extends utils.Adapter {
 	//----------------------------------------------------------------------------------------------------
 	async readDataFromServer() {
 		try {
-			this.log.info('Reading data from : https://drops.live/' + this.location);
+			this.log.debug('Reading data from : https://drops.live/' + this.location);
 			let weatherdataFound = false;
 			const response = await this.drops.get(encodeURI(this.location), { responseType: 'blob' });
 			if (response.status == 200) {
-				this.log.info('Ok. Parsing data...');
+				this.log.debug('Ok. Parsing data...');
 				// if GET was successful...
 				const $ = cheerio.load(response.data);
 				$('script').each((_, e) => {

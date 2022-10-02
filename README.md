@@ -42,6 +42,7 @@ You can use the GPS coordinates that are stored in the system configuration of t
 -   (inbux) added actualRain
 -   (inbux) reading system language for weekdays localization
 -   (inbux) changed rainStartsAt to timestamp
+-   (inbux) changed most log messages to debug to keep log cleaner
 -   (inbux) updated README.md
 
 ### 0.2.0 (2022-10-01)
