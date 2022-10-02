@@ -15,12 +15,30 @@
 
 Reading rain and temperature data from https://drops.live
 
+## Features
+
+This adapter reads the rain and temperature data in an interval of 5 minutes from the website.
+There is a chart datapoint, which can directly be used by the BarChart widget from the Material Designs widgets.
+![Logo](img/ChartDrops2.png)
+
+The 5 minutes and 1h data is stored in different states.
+![Logo](img/statesDrops.png)
+
+## Configuration
+
+You can use the GPS coordinates that are stored in the system configuration of the ioBroker or you define your own location using a city name or your own GPS coordinates.
+
 ## Changelog
 
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+
+-   (inbux) updated README.md
+
 ### 0.2.0 (2022-10-01)
 
 -   (inbux) added use of system configuration for gps coordinates
