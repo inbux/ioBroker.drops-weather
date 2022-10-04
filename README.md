@@ -5,11 +5,15 @@
 [![NPM version](https://img.shields.io/npm/v/iobroker.drops-weather.svg)](https://www.npmjs.com/package/iobroker.drops-weather)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.drops-weather.svg)](https://www.npmjs.com/package/iobroker.drops-weather)
 ![Number of Installations](https://iobroker.live/badges/drops-weather-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/drops-weather-stable.svg)
+![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/iobroker.drops-weather?label=npm%20vulnerabilities&style=flat-square)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/iobroker.drops-weather?label=npm%20dependencies&style=flat-square)
 
-[![NPM](https://nodei.co/npm/iobroker.drops-weather.png?downloads=true)](https://nodei.co/npm/iobroker.drops-weather/)
+![GitHub](https://img.shields.io/github/license/inbux/iobroker.drops-weather?style=flat-square)
+![Test and Release](https://github.com/inbux/ioBroker.drops-weather/workflows/Test%20and%20Release/badge.svg)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/inbux/iobroker.drops-weather?label=repo%20vulnerabilities&logo=github&style=flat-square)
 
-**Tests:** ![Test and Release](https://github.com/inbux/ioBroker.drops-weather/workflows/Test%20and%20Release/badge.svg)
+<!-- ![Current version in stable repository](https://iobroker.live/badges/drops-weather-stable.svg) -->
+<!-- [![NPM](https://nodei.co/npm/iobroker.drops-weather.png?downloads=true)](https://nodei.co/npm/iobroker.drops-weather/) -->
 
 ## drops-weather adapter for ioBroker
 
@@ -36,6 +40,11 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 	### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+
+-   (inbux)
+
 ### 0.2.1 (2022-10-02)
 
 -   (inbux) added actualRain
