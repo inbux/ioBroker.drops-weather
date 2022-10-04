@@ -28,7 +28,7 @@ class DropsWeather extends utils.Adapter {
 			name: 'drops-weather',
 		});
 
-		this.drops = null;
+		this.drops;
 		this.location = '';
 
 		this.on('ready', this.onReady.bind(this));
@@ -124,6 +124,8 @@ class DropsWeather extends utils.Adapter {
 		try {
 			this.log.debug('Reading data from : https://drops.live/' + this.location);
 			let weatherdataFound = false;
+
+			// @ts-ignore
 			const response = await this.drops.get(encodeURI(this.location), { responseType: 'blob' });
 			if (response.status == 200) {
 				this.log.debug('Ok. Parsing data...');
