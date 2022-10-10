@@ -176,6 +176,7 @@ class DropsWeather extends utils.Adapter {
 			let tempdata = [];
 			let isRainingNow = false;
 			let rainStartsAt = '-1';
+			let rainStartAmount = 0;
 			let dateformat = 'HH:mm';
 
 			if (channel == 'data_1h') dateformat = 'dd HH:mm';
@@ -195,8 +196,11 @@ class DropsWeather extends utils.Adapter {
 
 				const date = dayjs(data[i].date);
 
-				if (rainStartsAt == '-1') if (data[i].rain > 0) rainStartsAt = date.format('YYYY-MM-DDTHH:mm:ssZ');
-
+				if (rainStartsAt == '-1')
+					if (data[i].rain > 0) {
+						rainStartsAt = date.format('YYYY-MM-DDTHH:mm:ssZ');
+						rainStartAmount = data[i].rain;
+					}
 				//this.log.debug(date.format('HH:mm').toString());
 
 				item_temp['label'] = date.format(dateformat).toString();
@@ -224,6 +228,7 @@ class DropsWeather extends utils.Adapter {
 			await this.setStateAsync(channel + '.raindata', { val: JSON.stringify(raindata), ack: true });
 			await this.setStateAsync(channel + '.tempdata', { val: JSON.stringify(tempdata), ack: true });
 			await this.setStateAsync(channel + '.rainStartsAt', { val: rainStartsAt, ack: true });
+			await this.setStateAsync(channel + '.startRain', { val: rainStartAmount, ack: true });
 		} catch (error) {
 			this.log.error(error);
 		}

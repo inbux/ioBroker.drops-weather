@@ -129,7 +129,7 @@
 			"common": {
 				"name": {
 					"en": "5 minutes data",
-					"de": "5 minutes data",
+					"de": "5 Minuten Daten",
 					"ru": "5 minutes data",
 					"pt": "5 minutes data",
 					"nl": "5 minutes data",
@@ -148,7 +148,7 @@
 			"common": {
 				"name": {
 					"en": "1 hour data",
-					"de": "1 hour data",
+					"de": "1 Stunden Daten",
 					"ru": "1 hour data",
 					"pt": "1 hour data",
 					"nl": "1 hour data",
@@ -190,7 +190,7 @@
 			"common": {
 				"name": {
 					"en": "JSON_Chart_Temperature",
-					"de": "JSON_Chart_Temperature",
+					"de": "JSON_Chart_Temperatur",
 					"ru": "JSON_Chart_Temperature",
 					"pt": "JSON_Chart_Temperature",
 					"nl": "JSON_Chart_Temperature",
@@ -282,7 +282,7 @@
 			"common": {
 				"name": {
 					"en": "isRainingNow",
-					"de": "isRainingNow",
+					"de": "regnet es jetzt",
 					"ru": "isRainingNow",
 					"pt": "isRainingNow",
 					"nl": "isRainingNow",
@@ -305,7 +305,7 @@
 			"common": {
 				"name": {
 					"en": "rain in mm/m2",
-					"de": "rain in mm/m2",
+					"de": "Regen in mm/m2",
 					"ru": "rain in mm/m2",
 					"pt": "rain in mm/m2",
 					"nl": "rain in mm/m2",
@@ -324,12 +324,36 @@
 			"native": {}
 		},
 		{
+			"_id": "data_5min.startRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "rain in mm/m2 when it is starting",
+					"de": "Regen in mm/m2 wenn es zu regnen beginnt",
+					"ru": "rain in mm/m2 when it is starting",
+					"pt": "rain in mm/m2 when it is starting",
+					"nl": "rain in mm/m2 when it is starting",
+					"fr": "rain in mm/m2 when it is starting",
+					"it": "rain in mm/m2 when it is starting",
+					"es": "rain in mm/m2 when it is starting",
+					"pl": "rain in mm/m2 when it is starting",
+					"zh-cn": "rain in mm/m2 when it is starting"
+				},
+				"type": "number",
+				"unit": "mm/m2",
+				"role": "value.rain",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
 			"_id": "data_5min.tempdata",
 			"type": "state",
 			"common": {
 				"name": {
 					"en": "Temperature",
-					"de": "Temperature",
+					"de": "Temperatur",
 					"ru": "Temperature",
 					"pt": "Temperature",
 					"nl": "Temperature",
@@ -375,7 +399,7 @@
 			"common": {
 				"name": {
 					"en": "JSON_Chart_Temperature",
-					"de": "JSON_Chart_Temperature",
+					"de": "JSON_Chart_Temperatur",
 					"ru": "JSON_Chart_Temperature",
 					"pt": "JSON_Chart_Temperature",
 					"nl": "JSON_Chart_Temperature",
@@ -467,7 +491,7 @@
 			"common": {
 				"name": {
 					"en": "isRainingNow",
-					"de": "isRainingNow",
+					"de": "regnet es jetzt",
 					"ru": "isRainingNow",
 					"pt": "isRainingNow",
 					"nl": "isRainingNow",
@@ -490,7 +514,7 @@
 			"common": {
 				"name": {
 					"en": "rain in mm/m2",
-					"de": "rain in mm/m2",
+					"de": "Regen in mm/m2",
 					"ru": "rain in mm/m2",
 					"pt": "rain in mm/m2",
 					"nl": "rain in mm/m2",
@@ -509,12 +533,36 @@
 			"native": {}
 		},
 		{
+			"_id": "data_1h.startRain",
+			"type": "state",
+			"common": {
+				"name": {
+					"en": "rain in mm/m2 when it is starting",
+					"de": "Regen in mm/m2 wenn es zu regnen beginnt",
+					"ru": "rain in mm/m2 when it is starting",
+					"pt": "rain in mm/m2 when it is starting",
+					"nl": "rain in mm/m2 when it is starting",
+					"fr": "rain in mm/m2 when it is starting",
+					"it": "rain in mm/m2 when it is starting",
+					"es": "rain in mm/m2 when it is starting",
+					"pl": "rain in mm/m2 when it is starting",
+					"zh-cn": "rain in mm/m2 when it is starting"
+				},
+				"type": "number",
+				"unit": "mm/m2",
+				"role": "value.rain",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
 			"_id": "data_1h.tempdata",
 			"type": "state",
 			"common": {
 				"name": {
 					"en": "Temperature",
-					"de": "Temperature",
+					"de": "Temperatur",
 					"ru": "Temperature",
 					"pt": "Temperature",
 					"nl": "Temperature",
