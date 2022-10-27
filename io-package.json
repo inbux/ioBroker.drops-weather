@@ -304,19 +304,19 @@
 			"type": "state",
 			"common": {
 				"name": {
-					"en": "rain in mm/m2",
-					"de": "Regen in mm/m2",
-					"ru": "rain in mm/m2",
-					"pt": "rain in mm/m2",
-					"nl": "rain in mm/m2",
-					"fr": "rain in mm/m2",
-					"it": "rain in mm/m2",
-					"es": "rain in mm/m2",
-					"pl": "rain in mm/m2",
-					"zh-cn": "rain in mm/m2"
+					"en": "rain in mm/h",
+					"de": "Regen in mm/h",
+					"ru": "rain in mm/h",
+					"pt": "rain in mm/h",
+					"nl": "rain in mm/h",
+					"fr": "rain in mm/h",
+					"it": "rain in mm/h",
+					"es": "rain in mm/h",
+					"pl": "rain in mm/h",
+					"zh-cn": "rain in mm/h"
 				},
 				"type": "number",
-				"unit": "mm/m2",
+				"unit": "mm/h",
 				"role": "value.rain",
 				"read": true,
 				"write": false
@@ -328,19 +328,19 @@
 			"type": "state",
 			"common": {
 				"name": {
-					"en": "rain in mm/m2 when it is starting",
-					"de": "Regen in mm/m2 wenn es zu regnen beginnt",
-					"ru": "rain in mm/m2 when it is starting",
-					"pt": "rain in mm/m2 when it is starting",
-					"nl": "rain in mm/m2 when it is starting",
-					"fr": "rain in mm/m2 when it is starting",
-					"it": "rain in mm/m2 when it is starting",
-					"es": "rain in mm/m2 when it is starting",
-					"pl": "rain in mm/m2 when it is starting",
-					"zh-cn": "rain in mm/m2 when it is starting"
+					"en": "rain in mm/h when it is starting",
+					"de": "Regen in mm/h wenn es zu regnen beginnt",
+					"ru": "rain in mm/h when it is starting",
+					"pt": "rain in mm/h when it is starting",
+					"nl": "rain in mm/h when it is starting",
+					"fr": "rain in mm/h when it is starting",
+					"it": "rain in mm/h when it is starting",
+					"es": "rain in mm/h when it is starting",
+					"pl": "rain in mm/h when it is starting",
+					"zh-cn": "rain in mm/h when it is starting"
 				},
 				"type": "number",
-				"unit": "mm/m2",
+				"unit": "mm/h",
 				"role": "value.rain",
 				"read": true,
 				"write": false
@@ -513,19 +513,19 @@
 			"type": "state",
 			"common": {
 				"name": {
-					"en": "rain in mm/m2",
-					"de": "Regen in mm/m2",
-					"ru": "rain in mm/m2",
-					"pt": "rain in mm/m2",
-					"nl": "rain in mm/m2",
-					"fr": "rain in mm/m2",
-					"it": "rain in mm/m2",
-					"es": "rain in mm/m2",
-					"pl": "rain in mm/m2",
-					"zh-cn": "rain in mm/m2"
+					"en": "rain in mm/h",
+					"de": "Regen in mm/h",
+					"ru": "rain in mm/h",
+					"pt": "rain in mm/h",
+					"nl": "rain in mm/h",
+					"fr": "rain in mm/h",
+					"it": "rain in mm/h",
+					"es": "rain in mm/h",
+					"pl": "rain in mm/h",
+					"zh-cn": "rain in mm/h"
 				},
 				"type": "number",
-				"unit": "mm/m2",
+				"unit": "mm/h",
 				"role": "value.rain",
 				"read": true,
 				"write": false
@@ -537,19 +537,19 @@
 			"type": "state",
 			"common": {
 				"name": {
-					"en": "rain in mm/m2 when it is starting",
-					"de": "Regen in mm/m2 wenn es zu regnen beginnt",
-					"ru": "rain in mm/m2 when it is starting",
-					"pt": "rain in mm/m2 when it is starting",
-					"nl": "rain in mm/m2 when it is starting",
-					"fr": "rain in mm/m2 when it is starting",
-					"it": "rain in mm/m2 when it is starting",
-					"es": "rain in mm/m2 when it is starting",
-					"pl": "rain in mm/m2 when it is starting",
-					"zh-cn": "rain in mm/m2 when it is starting"
+					"en": "rain in mm/h when it is starting",
+					"de": "Regen in mm/h wenn es zu regnen beginnt",
+					"ru": "rain in mm/h when it is starting",
+					"pt": "rain in mm/h when it is starting",
+					"nl": "rain in mm/h when it is starting",
+					"fr": "rain in mm/h when it is starting",
+					"it": "rain in mm/h when it is starting",
+					"es": "rain in mm/h when it is starting",
+					"pl": "rain in mm/h when it is starting",
+					"zh-cn": "rain in mm/h when it is starting"
 				},
 				"type": "number",
-				"unit": "mm/m2",
+				"unit": "mm/h",
 				"role": "value.rain",
 				"read": true,
 				"write": false
