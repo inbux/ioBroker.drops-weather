@@ -108,16 +108,20 @@ class DropsWeather extends utils.Adapter {
 	}
 	//----------------------------------------------------------------------------------------------------
 	async getLanguage() {
-		this.log.debug('getting system language');
-		this.getForeignObject('system.config', (err, state) => {
-			if (err || state === undefined || state === null || state.common.language === '') {
-				this.log.warn(`no language set in system configuration of ioBroker`);
-			} else {
-				this.log.debug(state.common.language);
-				if (state.common.language === 'de') dayjs.locale('de');
-				else dayjs.locale('en');
-			}
-		});
+		try {
+			this.log.debug('getting system language');
+			this.getForeignObject('system.config', (err, state) => {
+				if (err || state === undefined || state === null || state.common.language === '') {
+					this.log.warn(`no language set in system configuration of ioBroker`);
+				} else {
+					this.log.debug(state.common.language);
+					if (state.common.language === 'de') dayjs.locale('de');
+					else dayjs.locale('en');
+				}
+			});
+		} catch (error) {
+			this.log.warn(error);
+		}
 	}
 	//----------------------------------------------------------------------------------------------------
 	async readDataFromServer() {
