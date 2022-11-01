@@ -3,8 +3,8 @@ const cheerio = require('cheerio');
 const dayjs = require('dayjs');
 require('dayjs/locale/de');
 
-//const axios = require('axios').default;
-const axios = require('axios');
+const axios = require('axios').default;
+//const axios = require('axios');
 let interval = null;
 let starttimeout;
 
