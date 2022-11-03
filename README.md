@@ -43,6 +43,7 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 ### **WORK IN PROGRESS**
 
+-   (inbux) small changes because of axios update
 -   (inbux) changed units to mm/h
 
 ### 0.2.1 (2022-10-02)
