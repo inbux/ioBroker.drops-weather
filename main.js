@@ -58,7 +58,7 @@ class DropsWeather extends utils.Adapter {
 		await this.getLanguage();
 
 		this.drops = axios.create({
-			baseURL: `https://drops.live/`,
+			baseURL: `https://www.drops.live/`,
 			//insecureHTTPParser: true,
 			timeout: 15000,
 			headers: {
@@ -71,7 +71,7 @@ class DropsWeather extends utils.Adapter {
 			if (this.location === null || this.location === '') {
 				this.log.error(`Location not set - please check instance configuration of ${this.namespace}`);
 			} else {
-				this.log.info('Reading data from : https://drops.live/' + this.location);
+				this.log.info('Reading data from : https://www.drops.live/' + this.location);
 				this.readDataFromServer();
 			}
 		}, 2000);
@@ -127,7 +127,7 @@ class DropsWeather extends utils.Adapter {
 	//----------------------------------------------------------------------------------------------------
 	async readDataFromServer() {
 		try {
-			this.log.debug('Reading data from : https://drops.live/' + this.location);
+			this.log.debug('Reading data from : https://www.drops.live/' + this.location);
 			let weatherdataFound = false;
 
 			// @ts-ignore
