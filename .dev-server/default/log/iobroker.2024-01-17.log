@@ -157,3 +157,26 @@
 2024-01-17 08:43:51.295  - [34mdebug[39m: drops-weather.0 (17313) Reading data from : https://drops.live/53.3196227,7.4225093
 2024-01-17 08:43:51.605  - [34mdebug[39m: drops-weather.0 (17313) Ok. Parsing data...
 2024-01-17 08:43:51.611  - [33mwarn[39m: drops-weather.0 (17313) no weatherData found in HTML
+2024-01-17 08:46:24.232  - [32minfo[39m: admin.0 (17272) terminating http server on port 20426
+2024-01-17 08:46:24.250  - [32minfo[39m: admin.0 (17272) <== Disconnect system.user.admin from 127.0.0.1 admin
+2024-01-17 08:46:24.244  - [32minfo[39m: host.dev-drops-weather-iobroker-dev received SIGINT
+2024-01-17 08:46:24.251  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev stop isStopping=0 isDaemon=false allInstancesStopped=false
+2024-01-17 08:46:24.251  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 (force=false, process=true)
+2024-01-17 08:46:24.252  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 (force=false, process=true)
+2024-01-17 08:46:24.257  - [32minfo[39m: drops-weather.0 (17936) Terminated (START_IMMEDIATELY_AFTER_STOP): Without reason
+2024-01-17 08:46:24.258  - [32minfo[39m: drops-weather.0 (17313) Terminated (START_IMMEDIATELY_AFTER_STOP): Without reason
+2024-01-17 08:46:24.259  - [32minfo[39m: admin.0 (17272) Terminated (START_IMMEDIATELY_AFTER_STOP): Without reason
+2024-01-17 08:46:24.260  - [32minfo[39m: admin.0 (17272) Got terminate signal TERMINATE_YOURSELF
+2024-01-17 08:46:24.261  - [32minfo[39m: drops-weather.0 (17313) Got terminate signal TERMINATE_YOURSELF
+2024-01-17 08:46:24.262  - [32minfo[39m: drops-weather.0 (17936) Got terminate signal TERMINATE_YOURSELF
+2024-01-17 08:46:24.265  - [32minfo[39m: admin.0 (17272) <== Disconnect system.user.admin from 127.0.0.1 admin
+2024-01-17 08:46:24.267  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 send kill signal
+2024-01-17 08:46:24.269  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 send kill signal
+2024-01-17 08:46:24.275  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev Error while trying to update capabilities after detecting new Node.js version: Command failed: sudo setcap cap_net_admin,cap_net_bind_service,cap_net_raw+epi /usr/bin/node
+sudo: a password is required
+
+2024-01-17 08:46:24.804  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 156 (START_IMMEDIATELY_AFTER_STOP)
+2024-01-17 08:46:24.848  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated with code 156 (START_IMMEDIATELY_AFTER_STOP)
+2024-01-17 08:46:24.848  - [32minfo[39m: host.dev-drops-weather-iobroker-dev All instances are stopped.
+2024-01-17 08:46:24.852  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Plugin sentry destroyed
+2024-01-17 08:46:24.912  - [32minfo[39m: host.dev-drops-weather-iobroker-dev terminated
