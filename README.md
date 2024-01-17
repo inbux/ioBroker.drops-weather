@@ -33,8 +33,7 @@ The 5 minutes and 1h data is stored in different states.
 You can use the GPS coordinates that are stored in the system configuration of the ioBroker or you define your own location using a city name or your own GPS coordinates.
 
 ## Changelog
-
-### **WORK IN PROGRESS**
+### 0.2.3 (2024-01-17)
 
 -   (inbux) updated dependencies
 

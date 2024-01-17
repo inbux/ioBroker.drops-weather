@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "drops-weather",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "news": {
+      "0.2.3": {
+        "en": "updated dependencies",
+        "de": "aktualisierte abhängigkeiten",
+        "ru": "обновленные зависимости",
+        "pt": "dependências atualizadas",
+        "nl": "bijgewerkte afhankelijkheden",
+        "fr": "dépendances actualisées",
+        "it": "dipendenze aggiornate",
+        "es": "dependencias actualizadas",
+        "pl": "zaktualizowane zależności",
+        "uk": "оновлені залежності",
+        "zh-cn": "更新的依赖关系"
+      },
       "0.2.2": {
         "en": "changed URL from drops.live to www.drops.live (thanks to Marc-Berg)\nsmall changes because of axios update\nchanged units to mm/h",
         "de": "geänderte URL von drop.live bis www.drops.live (Danke an Marc-Berg)\nkleine änderungen wegen axios update\ngeänderte einheiten in mm/h",
