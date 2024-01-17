@@ -34,12 +34,10 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 ## Changelog
 
-<!--
-	Placeholder for the next version (at the beginning of the line):
-	-   (inbux)
+### **WORK IN PROGRESS**
 
-	### **WORK IN PROGRESS**
--->
+-   (inbux) updated dependencies
+
 ### 0.2.2 (2024-01-17)
 
 -   (inbux) changed URL from drops.live to www.drops.live (thanks to Marc-Berg)
