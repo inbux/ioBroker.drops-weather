@@ -1,0 +1,8 @@
+{
+    "Adapter settings for drops-weather": "Paramètres de l'adaptateur pour les chutes de temps",
+    "Location": "Emplacement",
+    "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')": "Veuillez entrer votre ville (par exemple 'Berlin') ou position en latitude,longitude (par exemple '52.52437,13.41053')",
+    "You can use the location data from the system configuration or insert your own city / GPS coordinates": "Vous pouvez utiliser les données de localisation de la configuration du système ou insérer vos propres coordonnées de ville/GPS",
+    "Use GPS coordinates from system configuration": "Utiliser les coordonnées GPS de la configuration du système",
+    "Options": "Choix"
+}

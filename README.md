@@ -43,6 +43,7 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 ### **WORK IN PROGRESS**
 
+-   (inbux) changed URL from drops.live to www.drops.live (thanks to Marc-Berg)
 -   (inbux) small changes because of axios update
 -   (inbux) changed units to mm/h
 
