@@ -40,8 +40,7 @@ You can use the GPS coordinates that are stored in the system configuration of t
 
 	### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.2.2 (2024-01-17)
 
 -   (inbux) changed URL from drops.live to www.drops.live (thanks to Marc-Berg)
 -   (inbux) small changes because of axios update
