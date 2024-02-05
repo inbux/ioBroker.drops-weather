@@ -6,28 +6,37 @@
 			"type": "panel",
 			"label": "Options",
 			"items": {
-				"infoText": {
+				"infoText1": {
 					"type": "staticText",
-					"text": "You can use the location data from the system configuration or insert your own city / GPS coordinates",
+					"text": "Please visit drops.live website and enter your city or your location to get your city code in the URL:"
+				},
+				"infoLink1": {
+					"type": "staticLink",
+					"label": "https://www.drops.live",
+					"href": "https://www.drops.live",
 					"newLine": true
 				},
-				"useSystemLocation": {
-					"type": "checkbox",
-					"label": "Use GPS coordinates from system configuration",
-					"default": true,
+				"infoText2": {
+					"type": "staticText",
+					"text": "For more detailed instructions, please visit the website of this adapter:",
+					"newLine": true
+				},
+				"infoLink3": {
+					"type": "staticLink",
+					"label": "https://github.com/inbux/ioBroker.drops-weather",
+					"href": "https://github.com/inbux/ioBroker.drops-weather",
 					"newLine": true
 				},
 				"locationText": {
 					"type": "staticText",
-					"text": "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')",
-					"hidden": "data.useSystemLocation === true",
+					"text": "Please enter your city code from www.drops.live url (e.g. for 'Berlin' => 6573)",
 					"newLine": true
 				},
-				"location": {
-					"md": 6,
-					"type": "text",
-					"label": "Location",
-					"hidden": "data.useSystemLocation === true",
+
+				"citycode": {
+					"min": 1,
+					"type": "number",
+					"label": "City code",
 					"newLine": true
 				}
 			}

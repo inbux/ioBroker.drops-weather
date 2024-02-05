@@ -5,23 +5,21 @@
 [![NPM version](https://img.shields.io/npm/v/iobroker.drops-weather.svg)](https://www.npmjs.com/package/iobroker.drops-weather)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.drops-weather.svg)](https://www.npmjs.com/package/iobroker.drops-weather)
 ![Number of Installations](https://iobroker.live/badges/drops-weather-installed.svg)
-![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/iobroker.drops-weather?label=npm%20vulnerabilities&style=flat-square)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/iobroker.drops-weather?label=npm%20dependencies&style=flat-square)
 
 ![GitHub](https://img.shields.io/github/license/inbux/iobroker.drops-weather?style=flat-square)
 ![Test and Release](https://github.com/inbux/ioBroker.drops-weather/workflows/Test%20and%20Release/badge.svg)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/inbux/iobroker.drops-weather?label=repo%20vulnerabilities&logo=github&style=flat-square)
 
 <!-- ![Current version in stable repository](https://iobroker.live/badges/drops-weather-stable.svg) -->
 <!-- [![NPM](https://nodei.co/npm/iobroker.drops-weather.png?downloads=true)](https://nodei.co/npm/iobroker.drops-weather/) -->
 
 ## drops-weather adapter for ioBroker
 
-Reading rain and temperature data from https://drops.live
+Reading rain data from https://www.drops.live
 
 ## Features
 
-This adapter reads the rain and temperature data in an interval of 5 minutes from the website.
+This adapter reads the rain data in an interval of 5 minutes from the website.
 There is a chart datapoint, which can directly be used by the BarChart widget from the Material Designs widgets.
 ![Logo](img/ChartDrops2.png)
 
@@ -30,9 +28,23 @@ The 5 minutes and 1h data is stored in different states.
 
 ## Configuration
 
-You can use the GPS coordinates that are stored in the system configuration of the ioBroker or you define your own location using a city name or your own GPS coordinates.
+GPS position is not longer available on the drops.live website.
+You know need a city code of your location or city. To get this code, just enter your city name (or use your location) at https://www.drops.live .
+You will find your city code in the URL:
+![Logo](img/citycode.png)
+In this example you will find 6573 for Berlin.
 
 ## Changelog
+
+### **WORK IN PROGRESS**
+
+## breaking changes in drops.live homepage (2024-02-05)
+
+-   (inbux) parsing of drops.live homepage updated
+-   (inbux) GPS position is not longer supported on the website, added city code in configuration
+-   (inbux) removed temperture because this data is not longer available
+-   (inbux) updated readme
+
 ### 0.2.3 (2024-01-17)
 
 -   (inbux) updated dependencies

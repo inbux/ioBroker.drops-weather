@@ -1,8 +1,0 @@
-{
-    "Adapter settings for drops-weather": "水滴天气的适配器设置",
-    "Location": "地点",
-    "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')": "请输入您的城市（例如“柏林”）或纬度、经度位置（例如“52.52437,13.41053”）",
-    "You can use the location data from the system configuration or insert your own city / GPS coordinates": "您可以使用系统配置中的位置数据或插入您自己的城市/GPS 坐标",
-    "Use GPS coordinates from system configuration": "使用系统配置中的 GPS 坐标",
-    "Options": "选项"
-}

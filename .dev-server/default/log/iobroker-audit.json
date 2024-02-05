@@ -6,9 +6,9 @@
     "auditLog": "/home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/log/iobroker-audit.json",
     "files": [
         {
-            "date": 1705476226052,
-            "name": "/home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/log/iobroker.2024-01-17.log",
-            "hash": "49d789525dc6cb3001a91811d2381aef918e45ea9a87943c4c3eeac49dfa5cfa"
+            "date": 1707117643842,
+            "name": "/home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/log/iobroker.2024-02-05.log",
+            "hash": "525c24a8a311d8411a2623fb5eacd977fc2a4df25942fea74e32289683566531"
         }
     ],
     "hashType": "sha256"

@@ -1,8 +1,0 @@
-{
-	"Adapter settings for drops-weather": "Adapterinstellingen voor drops weather",
-	"Location": "Plaats",
-	"Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')": "Voer uw stad in (bijv. 'Berlijn') of positie in latitude, longitude (bijv. '52.52437,13.41053')",
-	"You can use the location data from the system configuration or insert your own city / GPS coordinates": "U kunt de locatiegegevens uit de systeemconfiguratie gebruiken of uw eigen stad / GPS-coördinaten invoeren",
-	"Use GPS coordinates from system configuration": "Gebruik GPS-coördinaten uit de systeemconfiguratie",
-	"Options": "Opties"
-}
