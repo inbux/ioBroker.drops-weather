@@ -39,8 +39,7 @@ You will find your city code in the URL:
 In this example you will find 6573 for Berlin.
 
 ## Changelog
-
-### **WORK IN PROGRESS**
+### 0.3.1 (2024-02-05)
 
 -
 

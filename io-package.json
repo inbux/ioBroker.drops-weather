@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "drops-weather",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "news": {
+      "0.3.1": {
+        "en": "",
+        "de": "",
+        "ru": "",
+        "pt": "",
+        "nl": "",
+        "fr": "",
+        "it": "",
+        "es": "",
+        "pl": "",
+        "uk": "",
+        "zh-cn": ""
+      },
       "0.3.0": {
         "en": "breaking changes in drops.live homepage (2024-02-05)\n\n* parsing of drops.live homepage updated\n* GPS position is not longer supported on the website, added city code in configuration\n* removed temperture because this data is not longer available\n* updated readme",
         "de": "änderungen in drop.live homepage (2024-02-05)\n\n* parsing von drops.live homepage aktualisiert\n* GPS-Position wird nicht länger auf der Website unterstützt, Stadtcode in Konfiguration hinzugefügt\n* entfernte temperatur, da diese daten nicht mehr verfügbar sind\n* aktualisiertes lesezeichen",
@@ -67,18 +80,6 @@
         "zh-cn": "b. 增加使用系统配置坐标\na 时间缩短\n从错误改为战争的一些逻辑变化\n增加一些错误处理和逻辑信息\n城市的固定问题"
       },
       "0.1.1": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "pt": "",
-        "nl": "",
-        "fr": "",
-        "it": "",
-        "es": "",
-        "pl": "",
-        "zh-cn": ""
-      },
-      "0.1.0": {
         "en": "",
         "de": "",
         "ru": "",
