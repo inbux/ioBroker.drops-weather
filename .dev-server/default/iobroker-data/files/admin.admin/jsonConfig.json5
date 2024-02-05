@@ -7,6 +7,7 @@
       "type": "panel",
       "label": "Main settings",
       "items": {
+
         "bind": {
           "newLine": true,
           "type": "ip",
@@ -17,7 +18,7 @@
           "lg": 5
         },
         "port": {
-          "type": "number",
+          "type": "port",
           "min": 1,
           "max": 65565,
           "label": "Port",
@@ -33,34 +34,11 @@
           "md": 6,
           "lg": 2
         },
-        "certPublic": {
-          "type": "certificate",
+        "_certs": {
+          "type": "certificates",
+          "newLine": true,
           "hidden": "!data.secure",
-          "certType": "public",
-          "validator": "!data.secure || data.certPublic",
-          "label": "Public certificate",
-          "sm": 12,
-          "md": 6,
-          "lg": 2
-        },
-        "certPrivate": {
-          "hidden": "!data.secure",
-          "type": "certificate",
-          "certType": "private",
-          "validator": "!data.secure || data.certPrivate",
-          "label": "Private certificate",
-          "sm": 12,
-          "md": 6,
-          "lg": 2
-        },
-        "certChained": {
-          "hidden": "!data.secure",
-          "type": "certificate",
-          "certType": "chained",
-          "label": "Chained certificate",
-          "sm": 12,
-          "md": 6,
-          "lg": 2
+          "sm": 12
         },
         "auth": {
           "newLine": true,
@@ -152,6 +130,15 @@
           "sm": 12,
           "md": 4,
           "lg": 2
+        },
+        "doNotCheckPublicIP": {
+          "newLine": true,
+          "label": "Do not check if this instance is available from internet",
+          "type": "checkbox",
+          "sm": 12,
+          "md": 4,
+          "lg": 4,
+          "hidden": "!!data.auth"
         }
       }
     },
@@ -210,38 +197,9 @@
             "height": 59
           }
         },
-        "_link": {
-          "newLine": true,
-          "type": "staticLink",
-          "href": "https://github.com/ioBroker/ioBroker.admin/blob/master/README.md#lets-encrypt-certificates",
-          "text": "Read about Let's Encrypt certificates",
-          "style": {
-            "fontSize": 16,
-            "marginBottom": 20
-          }
-        },
-        "leEnabled": {
-          "newLine": true,
-          "type": "checkbox",
-          "label": "Use Lets Encrypt certificates"
-        },
-        "leUpdate": {
-          "newLine": true,
-          "type": "checkbox",
-          "hidden": "!data.leEnabled",
-          "label": "Use this instance for automatic update"
-        },
-        "lePort": {
-          "newLine": true,
-          "sm": 11,
-          "lg": 4,
-          "type": "number",
-          "hidden": "!data.leEnabled || !data.leUpdate",
-          "label": "Port to check the domain",
-          "style": {
-            "marginTop": 15,
-            "maxWidth": 200
-          }
+        "_staticText": {
+            "type": "staticText",
+            "text": "ra_Use iobroker.acme adapter for letsencrypt certificates"
         }
       }
     },

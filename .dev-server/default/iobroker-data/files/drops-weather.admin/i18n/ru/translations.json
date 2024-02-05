@@ -1,8 +1,0 @@
-{
-    "Adapter settings for drops-weather": "Настройки адаптера для капель-погоды",
-    "Location": "Расположение",
-    "Please enter your city (e.g. 'Berlin') or position in latitude,longitude (e.g. '52.52437,13.41053')": "Пожалуйста, введите свой город (например, «Берлин») или позицию по широте и долготе (например, «52.52437,13.41053»).",
-    "You can use the location data from the system configuration or insert your own city / GPS coordinates": "Вы можете использовать данные о местоположении из конфигурации системы или вставить свои собственные координаты города/GPS.",
-    "Use GPS coordinates from system configuration": "Использовать координаты GPS из конфигурации системы",
-    "Options": "Опции"
-}

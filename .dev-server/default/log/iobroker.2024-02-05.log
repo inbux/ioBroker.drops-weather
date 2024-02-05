@@ -1946,3 +1946,672 @@ sudo: a password is required
 2024-02-05 12:00:01.267  - [34mdebug[39m: drops-weather.0 (28697) creating 1 hour states
 2024-02-05 12:00:01.282  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_5min): [{"label":"11:50","value":"0"},{"label":"11:55","value":"0"},{"label":"12:00","value":"0"},{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"}]
 2024-02-05 12:00:01.283  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_1h): [{"label":"Mo 14:00","value":"0"},{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"}]
+2024-02-05 12:04:59.371  - [34mdebug[39m: drops-weather.0 (28680) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:05:00.012  - [34mdebug[39m: drops-weather.0 (28680) Ok. Parsing data...
+2024-02-05 12:05:00.279  - [34mdebug[39m: drops-weather.0 (28680) weatherData found
+2024-02-05 12:05:00.279  - [34mdebug[39m: drops-weather.0 (28680) creating 5 min states
+2024-02-05 12:05:00.280  - [34mdebug[39m: drops-weather.0 (28680) creating 1 hour states
+2024-02-05 12:05:00.314  - [34mdebug[39m: drops-weather.0 (28680) Rain (data_5min): [{"label":"11:50","value":"0"},{"label":"11:55","value":"0"},{"label":"12:00","value":"0"},{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"}]
+2024-02-05 12:05:00.315  - [34mdebug[39m: drops-weather.0 (28680) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:05:00.780  - [34mdebug[39m: drops-weather.0 (28697) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:05:01.019  - [34mdebug[39m: drops-weather.0 (28697) Ok. Parsing data...
+2024-02-05 12:05:01.254  - [34mdebug[39m: drops-weather.0 (28697) weatherData found
+2024-02-05 12:05:01.254  - [34mdebug[39m: drops-weather.0 (28697) creating 5 min states
+2024-02-05 12:05:01.255  - [34mdebug[39m: drops-weather.0 (28697) creating 1 hour states
+2024-02-05 12:05:01.270  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_5min): [{"label":"11:50","value":"0"},{"label":"11:55","value":"0"},{"label":"12:00","value":"0"},{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"}]
+2024-02-05 12:05:01.271  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:09:59.371  - [34mdebug[39m: drops-weather.0 (28680) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:09:59.664  - [34mdebug[39m: drops-weather.0 (28680) Ok. Parsing data...
+2024-02-05 12:09:59.803  - [34mdebug[39m: drops-weather.0 (28680) weatherData found
+2024-02-05 12:09:59.803  - [34mdebug[39m: drops-weather.0 (28680) creating 5 min states
+2024-02-05 12:09:59.803  - [34mdebug[39m: drops-weather.0 (28680) creating 1 hour states
+2024-02-05 12:09:59.862  - [34mdebug[39m: drops-weather.0 (28680) Rain (data_5min): [{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"}]
+2024-02-05 12:09:59.863  - [34mdebug[39m: drops-weather.0 (28680) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:10:00.780  - [34mdebug[39m: drops-weather.0 (28697) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:10:01.079  - [34mdebug[39m: drops-weather.0 (28697) Ok. Parsing data...
+2024-02-05 12:10:01.330  - [34mdebug[39m: drops-weather.0 (28697) weatherData found
+2024-02-05 12:10:01.331  - [34mdebug[39m: drops-weather.0 (28697) creating 5 min states
+2024-02-05 12:10:01.332  - [34mdebug[39m: drops-weather.0 (28697) creating 1 hour states
+2024-02-05 12:10:01.350  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_5min): [{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"}]
+2024-02-05 12:10:01.350  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:12:07.691  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39124 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:07.693  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:43926 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:12.326  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39130 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:12.328  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:43942 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:12.419  - [34mdebug[39m: Delete file admin.admin/admin.png
+2024-02-05 12:12:12.422  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js
+2024-02-05 12:12:12.426  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js.map
+2024-02-05 12:12:12.429  - [34mdebug[39m: Delete file admin.admin/custom/i18n/de.json
+2024-02-05 12:12:12.433  - [34mdebug[39m: Delete file admin.admin/custom/i18n/en.json
+2024-02-05 12:12:12.436  - [34mdebug[39m: Delete file admin.admin/custom/i18n/es.json
+2024-02-05 12:12:12.440  - [34mdebug[39m: Delete file admin.admin/custom/i18n/fr.json
+2024-02-05 12:12:12.443  - [34mdebug[39m: Delete file admin.admin/custom/i18n/it.json
+2024-02-05 12:12:12.447  - [34mdebug[39m: Delete file admin.admin/custom/i18n/nl.json
+2024-02-05 12:12:12.451  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pl.json
+2024-02-05 12:12:12.456  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pt.json
+2024-02-05 12:12:12.460  - [34mdebug[39m: Delete file admin.admin/custom/i18n/ru.json
+2024-02-05 12:12:12.464  - [34mdebug[39m: Delete file admin.admin/custom/i18n/zh-cn.json
+2024-02-05 12:12:12.467  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js
+2024-02-05 12:12:12.472  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js.map
+2024-02-05 12:12:12.475  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js
+2024-02-05 12:12:12.479  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js.map
+2024-02-05 12:12:12.483  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js
+2024-02-05 12:12:12.486  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js.map
+2024-02-05 12:12:12.490  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js
+2024-02-05 12:12:12.494  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js.map
+2024-02-05 12:12:12.497  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js
+2024-02-05 12:12:12.501  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js.map
+2024-02-05 12:12:12.505  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js
+2024-02-05 12:12:12.508  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js.map
+2024-02-05 12:12:12.512  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js
+2024-02-05 12:12:12.515  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js.map
+2024-02-05 12:12:12.518  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js
+2024-02-05 12:12:12.523  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js.map
+2024-02-05 12:12:12.526  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js
+2024-02-05 12:12:12.530  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js.map
+2024-02-05 12:12:12.534  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js
+2024-02-05 12:12:12.538  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js.map
+2024-02-05 12:12:12.541  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js
+2024-02-05 12:12:12.545  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js.map
+2024-02-05 12:12:12.549  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js
+2024-02-05 12:12:12.553  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js.map
+2024-02-05 12:12:12.557  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js
+2024-02-05 12:12:12.560  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js.map
+2024-02-05 12:12:12.564  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js
+2024-02-05 12:12:12.568  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js.map
+2024-02-05 12:12:12.571  - [34mdebug[39m: Delete file admin.admin/i18n/de/translations.json
+2024-02-05 12:12:12.574  - [34mdebug[39m: Delete file admin.admin/i18n/en/translations.json
+2024-02-05 12:12:12.578  - [34mdebug[39m: Delete file admin.admin/i18n/es/translations.json
+2024-02-05 12:12:12.581  - [34mdebug[39m: Delete file admin.admin/i18n/fr/translations.json
+2024-02-05 12:12:12.586  - [34mdebug[39m: Delete file admin.admin/i18n/it/translations.json
+2024-02-05 12:12:12.590  - [34mdebug[39m: Delete file admin.admin/i18n/nl/translations.json
+2024-02-05 12:12:12.593  - [34mdebug[39m: Delete file admin.admin/i18n/pl/translations.json
+2024-02-05 12:12:12.597  - [34mdebug[39m: Delete file admin.admin/i18n/pt/translations.json
+2024-02-05 12:12:12.600  - [34mdebug[39m: Delete file admin.admin/i18n/ru/translations.json
+2024-02-05 12:12:12.604  - [34mdebug[39m: Delete file admin.admin/i18n/zh-cn/translations.json
+2024-02-05 12:12:12.607  - [34mdebug[39m: Delete file admin.admin/jsonConfig.json5
+2024-02-05 12:12:13.107  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.admin.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:12:13.108  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 (force=false, process=true)
+2024-02-05 12:12:13.118  - [32minfo[39m: admin.0 (28624) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:12:13.119  - [32minfo[39m: admin.0 (28624) terminating http server on port 20426
+2024-02-05 12:12:13.120  - [32minfo[39m: admin.0 (28624) terminating
+2024-02-05 12:12:13.120  - [32minfo[39m: admin.0 (28624) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-02-05 12:12:13.161  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 send kill signal
+2024-02-05 12:12:13.640  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-02-05 12:12:16.176  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.admin.0
+2024-02-05 12:12:16.177  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance admin.0 loglevel=info, compact=false
+2024-02-05 12:12:16.199  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 started with pid 30767
+2024-02-05 12:12:17.392  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60694 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:17.401  - [33mwarn[39m: admin.0 (30767) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:17.440  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:47282 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:17.440  - [33mwarn[39m: admin.0 (30767) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:17.479  - [32minfo[39m: admin.0 (30767) Plugin sentry Sentry Plugin disabled for this process because sending of statistic data is disabled for the system
+2024-02-05 12:12:17.537  - [32minfo[39m: admin.0 (30767) starting. Version 6.13.16 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.admin, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:12:17.583  - [32minfo[39m: admin.0 (30767) requesting all objects
+2024-02-05 12:12:17.809  - [32minfo[39m: admin.0 (30767) received all objects
+2024-02-05 12:12:17.833  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60708 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:17.833  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:47294 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:17.963  - [34mdebug[39m: Delete file drops-weather.admin/drops-weather.png
+2024-02-05 12:12:17.966  - [34mdebug[39m: Delete file drops-weather.admin/i18n/de/translations.json
+2024-02-05 12:12:17.970  - [34mdebug[39m: Delete file drops-weather.admin/i18n/en/translations.json
+2024-02-05 12:12:17.972  - [34mdebug[39m: Delete file drops-weather.admin/i18n/es/translations.json
+2024-02-05 12:12:17.974  - [34mdebug[39m: Delete file drops-weather.admin/i18n/fr/translations.json
+2024-02-05 12:12:17.977  - [34mdebug[39m: Delete file drops-weather.admin/i18n/it/translations.json
+2024-02-05 12:12:17.980  - [34mdebug[39m: Delete file drops-weather.admin/i18n/nl/translations.json
+2024-02-05 12:12:17.982  - [34mdebug[39m: Delete file drops-weather.admin/i18n/pl/translations.json
+2024-02-05 12:12:18.002  - [34mdebug[39m: Delete file drops-weather.admin/i18n/pt/translations.json
+2024-02-05 12:12:18.011  - [34mdebug[39m: Delete file drops-weather.admin/i18n/ru/translations.json
+2024-02-05 12:12:18.025  - [32minfo[39m: admin.0 (30767) Request actual repository...
+2024-02-05 12:12:18.049  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:12:18.049  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:12:18.075  - [32minfo[39m: admin.0 (30767) socket.io server listening on port 20426
+2024-02-05 12:12:18.077  - [32minfo[39m: admin.0 (30767) http server listening on port 20426
+2024-02-05 12:12:18.077  - [32minfo[39m: admin.0 (30767) Use link "http://127.0.0.1:20426" to configure.
+2024-02-05 12:12:18.137  - [32minfo[39m: admin.0 (30767) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:12:18.216  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Updating repository "beta" under "http://download.iobroker.net/sources-dist-latest.json"
+2024-02-05 12:12:18.223  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:12:18.257  - [34mdebug[39m: Delete file drops-weather.admin/i18n/zh-cn/translations.json
+2024-02-05 12:12:18.343  - [34mdebug[39m: Delete file drops-weather.admin/jsonConfig.json
+2024-02-05 12:12:18.379  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.drops-weather.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:12:18.382  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 (force=false, process=true)
+2024-02-05 12:12:18.396  - [32minfo[39m: drops-weather.0 (28680) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:12:18.396  - [32minfo[39m: drops-weather.0 (28680) terminating
+2024-02-05 12:12:18.397  - [32minfo[39m: drops-weather.0 (28680) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-02-05 12:12:18.398  - [32minfo[39m: drops-weather.0 (28697) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:12:18.431  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 send kill signal
+2024-02-05 12:12:18.643  - [32minfo[39m: admin.0 (30767) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:12:18.916  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-02-05 12:12:19.155  - [32minfo[39m: admin.0 (30767) <== Disconnect system.user.admin from 127.0.0.1 admin
+2024-02-05 12:12:19.879  - [32minfo[39m: admin.0 (30767) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:12:20.111  - [32minfo[39m: admin.0 (30767) Repository received successfully.
+2024-02-05 12:12:21.336  - [32minfo[39m: admin.0 (30767) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:12:21.422  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:12:21.843  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:12:21.843  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:12:21.845  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:12:21.918  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 30832
+2024-02-05 12:12:21.920  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 30832 vs own PID 28697
+2024-02-05 12:12:21.956  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getInstalled
+2024-02-05 12:12:22.093  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getNotifications
+2024-02-05 12:12:22.110  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message readBaseSettings
+2024-02-05 12:12:22.225  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:12:22.559  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60706 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:12:22.561  - [31merror[39m: admin.0 (30767) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:12:22.582  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60706 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:12:22.583  - [31merror[39m: admin.0 (30767) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:12:22.627  - [34mdebug[39m: drops-weather.0 (30832) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:12:22.666  - [34mdebug[39m: drops-weather.0 (30832) Objects client ready ... initialize now
+2024-02-05 12:12:22.667  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60712 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:22.677  - [33mwarn[39m: drops-weather.0 (30832) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:12:22.679  - [34mdebug[39m: drops-weather.0 (30832) Objects create System PubSub Client
+2024-02-05 12:12:22.679  - [34mdebug[39m: drops-weather.0 (30832) Objects create User PubSub Client
+2024-02-05 12:12:22.700  - [34mdebug[39m: drops-weather.0 (30832) Objects client initialize lua scripts
+2024-02-05 12:12:22.707  - [34mdebug[39m: drops-weather.0 (30832) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:12:22.717  - [34mdebug[39m: drops-weather.0 (30832) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:12:22.730  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:47310 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:22.731  - [33mwarn[39m: drops-weather.0 (30832) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:12:22.731  - [34mdebug[39m: drops-weather.0 (30832) States create System PubSub Client
+2024-02-05 12:12:22.731  - [34mdebug[39m: drops-weather.0 (30832) States create User PubSub Client
+2024-02-05 12:12:22.736  - [34mdebug[39m: drops-weather.0 (30832) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:12:22.820  - [32minfo[39m: drops-weather.0 (30832) starting. Version 0.2.3 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.drops-weather, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:12:22.862  - [34mdebug[39m: drops-weather.0 (30832) getting system language
+2024-02-05 12:12:22.871  - [34mdebug[39m: drops-weather.0 (30832) de
+2024-02-05 12:12:23.319  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:12:24.865  - [32minfo[39m: drops-weather.0 (30832) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:12:24.865  - [34mdebug[39m: drops-weather.0 (30832) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:12:25.988  - [34mdebug[39m: drops-weather.0 (30832) Ok. Parsing data...
+2024-02-05 12:12:26.177  - [34mdebug[39m: drops-weather.0 (30832) weatherData found
+2024-02-05 12:12:26.177  - [34mdebug[39m: drops-weather.0 (30832) creating 5 min states
+2024-02-05 12:12:26.178  - [34mdebug[39m: drops-weather.0 (30832) creating 1 hour states
+2024-02-05 12:12:26.193  - [34mdebug[39m: drops-weather.0 (30832) Rain (data_5min): [{"label":"12:05","value":"0"},{"label":"12:10","value":"0"},{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"}]
+2024-02-05 12:12:26.194  - [34mdebug[39m: drops-weather.0 (30832) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:12:27.147  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getDiagData
+2024-02-05 12:12:39.879  - [32minfo[39m: admin.0 (30767) <== Disconnect system.user.admin from 127.0.0.1 
+2024-02-05 12:13:23.934  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39930 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:23.937  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:44432 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:24.039  - [34mdebug[39m: Delete file admin.admin/admin.png
+2024-02-05 12:13:24.043  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js
+2024-02-05 12:13:24.047  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js.map
+2024-02-05 12:13:24.051  - [34mdebug[39m: Delete file admin.admin/custom/i18n/de.json
+2024-02-05 12:13:24.055  - [34mdebug[39m: Delete file admin.admin/custom/i18n/en.json
+2024-02-05 12:13:24.059  - [34mdebug[39m: Delete file admin.admin/custom/i18n/es.json
+2024-02-05 12:13:24.064  - [34mdebug[39m: Delete file admin.admin/custom/i18n/fr.json
+2024-02-05 12:13:24.073  - [34mdebug[39m: Delete file admin.admin/custom/i18n/it.json
+2024-02-05 12:13:24.077  - [34mdebug[39m: Delete file admin.admin/custom/i18n/nl.json
+2024-02-05 12:13:24.082  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pl.json
+2024-02-05 12:13:24.086  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pt.json
+2024-02-05 12:13:24.090  - [34mdebug[39m: Delete file admin.admin/custom/i18n/ru.json
+2024-02-05 12:13:24.094  - [34mdebug[39m: Delete file admin.admin/custom/i18n/zh-cn.json
+2024-02-05 12:13:24.099  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js
+2024-02-05 12:13:24.103  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js.map
+2024-02-05 12:13:24.110  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js
+2024-02-05 12:13:24.114  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js.map
+2024-02-05 12:13:24.119  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js
+2024-02-05 12:13:24.123  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js.map
+2024-02-05 12:13:24.128  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js
+2024-02-05 12:13:24.132  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js.map
+2024-02-05 12:13:24.137  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js
+2024-02-05 12:13:24.140  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js.map
+2024-02-05 12:13:24.146  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js
+2024-02-05 12:13:24.150  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js.map
+2024-02-05 12:13:24.156  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js
+2024-02-05 12:13:24.159  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js.map
+2024-02-05 12:13:24.170  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js
+2024-02-05 12:13:24.174  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js.map
+2024-02-05 12:13:24.177  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js
+2024-02-05 12:13:24.182  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js.map
+2024-02-05 12:13:24.188  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js
+2024-02-05 12:13:24.191  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js.map
+2024-02-05 12:13:24.196  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js
+2024-02-05 12:13:24.204  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js.map
+2024-02-05 12:13:24.207  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js
+2024-02-05 12:13:24.216  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js.map
+2024-02-05 12:13:24.221  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js
+2024-02-05 12:13:24.225  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js.map
+2024-02-05 12:13:24.229  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js
+2024-02-05 12:13:24.232  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js.map
+2024-02-05 12:13:24.236  - [34mdebug[39m: Delete file admin.admin/favicon.ico
+2024-02-05 12:13:24.241  - [34mdebug[39m: Delete file admin.admin/i18n/de/translations.json
+2024-02-05 12:13:24.244  - [34mdebug[39m: Delete file admin.admin/i18n/en/translations.json
+2024-02-05 12:13:24.248  - [34mdebug[39m: Delete file admin.admin/i18n/es/translations.json
+2024-02-05 12:13:24.251  - [34mdebug[39m: Delete file admin.admin/i18n/fr/translations.json
+2024-02-05 12:13:24.257  - [34mdebug[39m: Delete file admin.admin/i18n/it/translations.json
+2024-02-05 12:13:24.260  - [34mdebug[39m: Delete file admin.admin/i18n/nl/translations.json
+2024-02-05 12:13:24.264  - [34mdebug[39m: Delete file admin.admin/i18n/pl/translations.json
+2024-02-05 12:13:24.268  - [34mdebug[39m: Delete file admin.admin/i18n/pt/translations.json
+2024-02-05 12:13:24.271  - [34mdebug[39m: Delete file admin.admin/i18n/ru/translations.json
+2024-02-05 12:13:24.274  - [34mdebug[39m: Delete file admin.admin/i18n/uk/translations.json
+2024-02-05 12:13:24.280  - [34mdebug[39m: Delete file admin.admin/i18n/zh-cn/translations.json
+2024-02-05 12:13:24.283  - [34mdebug[39m: Delete file admin.admin/jsonConfig.json5
+2024-02-05 12:13:24.777  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.admin.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:13:24.778  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 (force=false, process=true)
+2024-02-05 12:13:24.788  - [32minfo[39m: admin.0 (30767) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:13:24.788  - [32minfo[39m: admin.0 (30767) terminating http server on port 20426
+2024-02-05 12:13:24.790  - [32minfo[39m: admin.0 (30767) terminating
+2024-02-05 12:13:24.790  - [32minfo[39m: admin.0 (30767) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-02-05 12:13:24.804  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60706 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:13:24.805  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:60706 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:13:24.851  - [31merror[39m: admin.0 (30767) Cannot unsubscribe "drops-weather.admin####jsonConfig.json": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:13:24.851  - [31merror[39m: admin.0 (30767) Cannot unsubscribe "drops-weather.admin####i18n/de/translations.json": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:13:24.852  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 send kill signal
+2024-02-05 12:13:25.291  - [32minfo[39m: admin.0 (30767) terminating
+2024-02-05 12:13:25.316  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-02-05 12:13:27.860  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.admin.0
+2024-02-05 12:13:27.860  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance admin.0 loglevel=info, compact=false
+2024-02-05 12:13:27.886  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 started with pid 31089
+2024-02-05 12:13:29.016  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41068 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:29.018  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41062 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:29.021  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:52862 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:29.020  - [33mwarn[39m: admin.0 (31089) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:29.062  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:52882 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:29.064  - [33mwarn[39m: admin.0 (31089) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:29.094  - [32minfo[39m: admin.0 (31089) Plugin sentry Sentry Plugin disabled for this process because sending of statistic data is disabled for the system
+2024-02-05 12:13:29.132  - [34mdebug[39m: Delete file drops-weather.admin/drops-weather.png
+2024-02-05 12:13:29.136  - [34mdebug[39m: Delete file drops-weather.admin/i18n/de/translations.json
+2024-02-05 12:13:29.140  - [34mdebug[39m: Delete file drops-weather.admin/i18n/en/translations.json
+2024-02-05 12:13:29.144  - [34mdebug[39m: Delete file drops-weather.admin/jsonConfig.json
+2024-02-05 12:13:29.223  - [32minfo[39m: admin.0 (31089) starting. Version 6.13.16 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.admin, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:13:29.236  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.drops-weather.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:13:29.236  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 (force=false, process=true)
+2024-02-05 12:13:29.237  - [32minfo[39m: drops-weather.0 (28697) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:13:29.239  - [32minfo[39m: drops-weather.0 (30832) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:13:29.239  - [32minfo[39m: drops-weather.0 (30832) terminating
+2024-02-05 12:13:29.240  - [32minfo[39m: drops-weather.0 (30832) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-02-05 12:13:29.241  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 send kill signal
+2024-02-05 12:13:29.265  - [32minfo[39m: admin.0 (31089) requesting all objects
+2024-02-05 12:13:29.457  - [32minfo[39m: admin.0 (31089) received all objects
+2024-02-05 12:13:29.555  - [32minfo[39m: admin.0 (31089) Request actual repository...
+2024-02-05 12:13:29.557  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:13:29.645  - [32minfo[39m: admin.0 (31089) socket.io server listening on port 20426
+2024-02-05 12:13:29.647  - [32minfo[39m: admin.0 (31089) http server listening on port 20426
+2024-02-05 12:13:29.647  - [32minfo[39m: admin.0 (31089) Use link "http://127.0.0.1:20426" to configure.
+2024-02-05 12:13:29.649  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:13:29.692  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Updating repository "beta" under "http://download.iobroker.net/sources-dist-latest.json"
+2024-02-05 12:13:29.741  - [32minfo[39m: drops-weather.0 (30832) terminating
+2024-02-05 12:13:29.848  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-02-05 12:13:30.115  - [32minfo[39m: admin.0 (31089) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:13:30.150  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41084 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:13:30.152  - [31merror[39m: admin.0 (31089) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:13:30.153  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41084 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:13:30.155  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:13:30.160  - [31merror[39m: admin.0 (31089) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:13:30.315  - [32minfo[39m: admin.0 (31089) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:13:30.925  - [32minfo[39m: admin.0 (31089) Repository received successfully.
+2024-02-05 12:13:32.249  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:13:32.250  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:13:32.256  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:13:32.276  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 31152
+2024-02-05 12:13:32.278  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 31152 vs own PID 28697
+2024-02-05 12:13:32.684  - [34mdebug[39m: drops-weather.0 (31152) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:13:32.708  - [34mdebug[39m: drops-weather.0 (31152) Objects client ready ... initialize now
+2024-02-05 12:13:32.709  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41094 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:32.719  - [33mwarn[39m: drops-weather.0 (31152) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:13:32.719  - [34mdebug[39m: drops-weather.0 (31152) Objects create System PubSub Client
+2024-02-05 12:13:32.720  - [34mdebug[39m: drops-weather.0 (31152) Objects create User PubSub Client
+2024-02-05 12:13:32.727  - [34mdebug[39m: drops-weather.0 (31152) Objects client initialize lua scripts
+2024-02-05 12:13:32.730  - [34mdebug[39m: drops-weather.0 (31152) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:13:32.735  - [34mdebug[39m: drops-weather.0 (31152) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:13:32.738  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:52904 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:32.740  - [33mwarn[39m: drops-weather.0 (31152) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:13:32.741  - [34mdebug[39m: drops-weather.0 (31152) States create System PubSub Client
+2024-02-05 12:13:32.741  - [34mdebug[39m: drops-weather.0 (31152) States create User PubSub Client
+2024-02-05 12:13:32.746  - [34mdebug[39m: drops-weather.0 (31152) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:13:32.750  - [31merror[39m: drops-weather.0 (31152) drops-weather.0 already running
+2024-02-05 12:13:32.751  - [33mwarn[39m: drops-weather.0 (31152) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2024-02-05 12:13:33.275  - [31merror[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 7 (ADAPTER_ALREADY_RUNNING)
+2024-02-05 12:13:33.275  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Reset crash count of system.adapter.drops-weather.0, because non-crash exit
+2024-02-05 12:13:33.275  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Restart adapter system.adapter.drops-weather.0 because enabled
+2024-02-05 12:14:03.280  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:14:03.281  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:14:03.284  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:14:03.297  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 31228
+2024-02-05 12:14:03.299  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 31228 vs own PID 28697
+2024-02-05 12:14:03.704  - [34mdebug[39m: drops-weather.0 (31228) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:14:03.728  - [34mdebug[39m: drops-weather.0 (31228) Objects client ready ... initialize now
+2024-02-05 12:14:03.729  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:34944 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:03.738  - [33mwarn[39m: drops-weather.0 (31228) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:03.739  - [34mdebug[39m: drops-weather.0 (31228) Objects create System PubSub Client
+2024-02-05 12:14:03.739  - [34mdebug[39m: drops-weather.0 (31228) Objects create User PubSub Client
+2024-02-05 12:14:03.748  - [34mdebug[39m: drops-weather.0 (31228) Objects client initialize lua scripts
+2024-02-05 12:14:03.751  - [34mdebug[39m: drops-weather.0 (31228) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:14:03.756  - [34mdebug[39m: drops-weather.0 (31228) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:14:03.759  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:60254 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:03.761  - [33mwarn[39m: drops-weather.0 (31228) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:03.762  - [34mdebug[39m: drops-weather.0 (31228) States create System PubSub Client
+2024-02-05 12:14:03.762  - [34mdebug[39m: drops-weather.0 (31228) States create User PubSub Client
+2024-02-05 12:14:03.769  - [34mdebug[39m: drops-weather.0 (31228) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:14:03.772  - [31merror[39m: drops-weather.0 (31228) drops-weather.0 already running
+2024-02-05 12:14:03.773  - [33mwarn[39m: drops-weather.0 (31228) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2024-02-05 12:14:04.301  - [31merror[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 7 (ADAPTER_ALREADY_RUNNING)
+2024-02-05 12:14:04.301  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Reset crash count of system.adapter.drops-weather.0, because non-crash exit
+2024-02-05 12:14:04.301  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Restart adapter system.adapter.drops-weather.0 because enabled
+2024-02-05 12:14:34.305  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:14:34.305  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:14:34.312  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:14:34.330  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 31386
+2024-02-05 12:14:34.333  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 31386 vs own PID 28697
+2024-02-05 12:14:35.578  - [34mdebug[39m: drops-weather.0 (31386) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:14:35.626  - [34mdebug[39m: drops-weather.0 (31386) Objects client ready ... initialize now
+2024-02-05 12:14:35.627  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:42526 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:35.639  - [33mwarn[39m: drops-weather.0 (31386) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:35.641  - [34mdebug[39m: drops-weather.0 (31386) Objects create System PubSub Client
+2024-02-05 12:14:35.641  - [34mdebug[39m: drops-weather.0 (31386) Objects create User PubSub Client
+2024-02-05 12:14:35.661  - [34mdebug[39m: drops-weather.0 (31386) Objects client initialize lua scripts
+2024-02-05 12:14:35.666  - [34mdebug[39m: drops-weather.0 (31386) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:14:35.673  - [34mdebug[39m: drops-weather.0 (31386) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:14:35.676  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:53202 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:35.678  - [33mwarn[39m: drops-weather.0 (31386) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:35.679  - [34mdebug[39m: drops-weather.0 (31386) States create System PubSub Client
+2024-02-05 12:14:35.679  - [34mdebug[39m: drops-weather.0 (31386) States create User PubSub Client
+2024-02-05 12:14:35.684  - [34mdebug[39m: drops-weather.0 (31386) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:14:35.687  - [31merror[39m: drops-weather.0 (31386) drops-weather.0 already running
+2024-02-05 12:14:35.688  - [33mwarn[39m: drops-weather.0 (31386) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2024-02-05 12:14:36.209  - [31merror[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 7 (ADAPTER_ALREADY_RUNNING)
+2024-02-05 12:14:36.209  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Reset crash count of system.adapter.drops-weather.0, because non-crash exit
+2024-02-05 12:14:36.209  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Restart adapter system.adapter.drops-weather.0 because enabled
+2024-02-05 12:14:45.094  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:45668 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:45.097  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:56124 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:45.196  - [34mdebug[39m: Delete file admin.admin/admin.png
+2024-02-05 12:14:45.199  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js
+2024-02-05 12:14:45.202  - [34mdebug[39m: Delete file admin.admin/custom/customComponents.js.map
+2024-02-05 12:14:45.206  - [34mdebug[39m: Delete file admin.admin/custom/i18n/de.json
+2024-02-05 12:14:45.210  - [34mdebug[39m: Delete file admin.admin/custom/i18n/en.json
+2024-02-05 12:14:45.213  - [34mdebug[39m: Delete file admin.admin/custom/i18n/es.json
+2024-02-05 12:14:45.219  - [34mdebug[39m: Delete file admin.admin/custom/i18n/fr.json
+2024-02-05 12:14:45.222  - [34mdebug[39m: Delete file admin.admin/custom/i18n/it.json
+2024-02-05 12:14:45.226  - [34mdebug[39m: Delete file admin.admin/custom/i18n/nl.json
+2024-02-05 12:14:45.233  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pl.json
+2024-02-05 12:14:45.237  - [34mdebug[39m: Delete file admin.admin/custom/i18n/pt.json
+2024-02-05 12:14:45.245  - [34mdebug[39m: Delete file admin.admin/custom/i18n/ru.json
+2024-02-05 12:14:45.248  - [34mdebug[39m: Delete file admin.admin/custom/i18n/zh-cn.json
+2024-02-05 12:14:45.251  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js
+2024-02-05 12:14:45.255  - [34mdebug[39m: Delete file admin.admin/custom/static/js/main.681927cc.js.map
+2024-02-05 12:14:45.264  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js
+2024-02-05 12:14:45.268  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23730.df74e930.chunk.js.map
+2024-02-05 12:14:45.271  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js
+2024-02-05 12:14:45.276  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_assets_devices_sync_recursive_-node_modules_iobroker_a-de23731.74a7cfbb.chunk.js.map
+2024-02-05 12:14:45.281  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js
+2024-02-05 12:14:45.287  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_iobroker_adapter-react-v5_node_modules_react_index_js.d44f3890.chunk.js.map
+2024-02-05 12:14:45.291  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js
+2024-02-05 12:14:45.295  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_prop-types_index_js.512eddf9.chunk.js.map
+2024-02-05 12:14:45.298  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js
+2024-02-05 12:14:45.302  - [34mdebug[39m: Delete file admin.admin/custom/static/js/node_modules_react_index_js.bdd08e35.chunk.js.map
+2024-02-05 12:14:45.306  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js
+2024-02-05 12:14:45.309  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_Components_jsx.cad8bc46.chunk.js.map
+2024-02-05 12:14:45.313  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js
+2024-02-05 12:14:45.317  - [34mdebug[39m: Delete file admin.admin/custom/static/js/src_bootstrap_jsx.6800150f.chunk.js.map
+2024-02-05 12:14:45.322  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js
+2024-02-05 12:14:45.329  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_iobroker_adapter-react-v5_assets_devices_parseNames_js-node_modules_iobr-99c23e.847b8ad9.chunk.js.map
+2024-02-05 12:14:45.335  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js
+2024-02-05 12:14:45.339  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_Accordion_index_js-node_modules_mui_material_AccordionDetai-57e02d.0886b730.chunk.js.map
+2024-02-05 12:14:45.344  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js
+2024-02-05 12:14:45.348  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_material_index_js.40e01f69.chunk.js.map
+2024-02-05 12:14:45.351  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js
+2024-02-05 12:14:45.355  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_index_js-node_modules_mui_utils_esm_capitalize_js-node_module-19fe07.82575832.chunk.js.map
+2024-02-05 12:14:45.365  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js
+2024-02-05 12:14:45.369  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_mui_styles_withStyles_withStyles_js.6d998ff2.chunk.js.map
+2024-02-05 12:14:45.373  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js
+2024-02-05 12:14:45.377  - [34mdebug[39m: Delete file admin.admin/custom/static/js/vendors-node_modules_react-dom_index_js.51544235.chunk.js.map
+2024-02-05 12:14:45.382  - [34mdebug[39m: Delete file admin.admin/favicon.ico
+2024-02-05 12:14:45.385  - [34mdebug[39m: Delete file admin.admin/i18n/de/translations.json
+2024-02-05 12:14:45.389  - [34mdebug[39m: Delete file admin.admin/i18n/en/translations.json
+2024-02-05 12:14:45.394  - [34mdebug[39m: Delete file admin.admin/i18n/es/translations.json
+2024-02-05 12:14:45.398  - [34mdebug[39m: Delete file admin.admin/i18n/fr/translations.json
+2024-02-05 12:14:45.401  - [34mdebug[39m: Delete file admin.admin/i18n/it/translations.json
+2024-02-05 12:14:45.405  - [34mdebug[39m: Delete file admin.admin/i18n/nl/translations.json
+2024-02-05 12:14:45.408  - [34mdebug[39m: Delete file admin.admin/i18n/pl/translations.json
+2024-02-05 12:14:45.412  - [34mdebug[39m: Delete file admin.admin/i18n/pt/translations.json
+2024-02-05 12:14:45.415  - [34mdebug[39m: Delete file admin.admin/i18n/ru/translations.json
+2024-02-05 12:14:45.419  - [34mdebug[39m: Delete file admin.admin/i18n/uk/translations.json
+2024-02-05 12:14:45.423  - [34mdebug[39m: Delete file admin.admin/i18n/zh-cn/translations.json
+2024-02-05 12:14:45.430  - [34mdebug[39m: Delete file admin.admin/jsonConfig.json5
+2024-02-05 12:14:45.911  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.admin.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:14:45.912  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 (force=false, process=true)
+2024-02-05 12:14:45.923  - [32minfo[39m: admin.0 (31089) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:14:45.924  - [32minfo[39m: admin.0 (31089) terminating http server on port 20426
+2024-02-05 12:14:45.926  - [32minfo[39m: admin.0 (31089) terminating
+2024-02-05 12:14:45.926  - [32minfo[39m: admin.0 (31089) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2024-02-05 12:14:45.930  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41084 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:14:45.930  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:41084 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:14:45.975  - [31merror[39m: admin.0 (31089) Cannot unsubscribe "drops-weather.admin####jsonConfig.json": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:14:45.975  - [31merror[39m: admin.0 (31089) Cannot unsubscribe "drops-weather.admin####i18n/de/translations.json": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:14:45.979  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 send kill signal
+2024-02-05 12:14:46.427  - [32minfo[39m: admin.0 (31089) terminating
+2024-02-05 12:14:46.450  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2024-02-05 12:14:48.986  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.admin.0
+2024-02-05 12:14:48.987  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance admin.0 loglevel=info, compact=false
+2024-02-05 12:14:49.018  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 started with pid 31601
+2024-02-05 12:14:50.128  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39610 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:50.130  - [33mwarn[39m: admin.0 (31601) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:50.185  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:41060 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:50.186  - [33mwarn[39m: admin.0 (31601) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:50.201  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39634 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:50.206  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:41064 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:50.221  - [32minfo[39m: admin.0 (31601) Plugin sentry Sentry Plugin disabled for this process because sending of statistic data is disabled for the system
+2024-02-05 12:14:50.291  - [32minfo[39m: admin.0 (31601) starting. Version 6.13.16 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.admin, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:14:50.351  - [34mdebug[39m: Delete file drops-weather.admin/drops-weather.png
+2024-02-05 12:14:50.353  - [34mdebug[39m: Delete file drops-weather.admin/i18n/de/translations.json
+2024-02-05 12:14:50.355  - [34mdebug[39m: Delete file drops-weather.admin/i18n/en/translations.json
+2024-02-05 12:14:50.358  - [34mdebug[39m: Delete file drops-weather.admin/jsonConfig.json
+2024-02-05 12:14:50.376  - [32minfo[39m: admin.0 (31601) requesting all objects
+2024-02-05 12:14:50.412  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.drops-weather.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:14:50.416  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:14:50.419  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:14:50.416  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:14:50.435  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 31628
+2024-02-05 12:14:50.438  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 31628 vs own PID 28697
+2024-02-05 12:14:50.686  - [32minfo[39m: admin.0 (31601) received all objects
+2024-02-05 12:14:50.853  - [32minfo[39m: admin.0 (31601) Request actual repository...
+2024-02-05 12:14:50.864  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:14:50.977  - [32minfo[39m: admin.0 (31601) socket.io server listening on port 20426
+2024-02-05 12:14:50.978  - [32minfo[39m: admin.0 (31601) http server listening on port 20426
+2024-02-05 12:14:50.978  - [32minfo[39m: admin.0 (31601) Use link "http://127.0.0.1:20426" to configure.
+2024-02-05 12:14:50.980  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:14:51.070  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Updating repository "beta" under "http://download.iobroker.net/sources-dist-latest.json"
+2024-02-05 12:14:51.104  - [32minfo[39m: admin.0 (31601) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:14:51.284  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:14:51.456  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39626 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:14:51.456  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39626 Error from InMemDB: Error: PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:14:51.458  - [31merror[39m: admin.0 (31601) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:14:51.458  - [31merror[39m: admin.0 (31601) Cannot subscribe "drops-weather.admin": Error PSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:14:51.459  - [32minfo[39m: admin.0 (31601) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:14:51.580  - [34mdebug[39m: drops-weather.0 (31628) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:14:51.604  - [34mdebug[39m: drops-weather.0 (31628) Objects client ready ... initialize now
+2024-02-05 12:14:51.605  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39646 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:51.622  - [33mwarn[39m: drops-weather.0 (31628) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:51.623  - [34mdebug[39m: drops-weather.0 (31628) Objects create System PubSub Client
+2024-02-05 12:14:51.623  - [34mdebug[39m: drops-weather.0 (31628) Objects create User PubSub Client
+2024-02-05 12:14:51.631  - [34mdebug[39m: drops-weather.0 (31628) Objects client initialize lua scripts
+2024-02-05 12:14:51.634  - [34mdebug[39m: drops-weather.0 (31628) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:14:51.639  - [34mdebug[39m: drops-weather.0 (31628) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:14:51.642  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:41106 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:51.643  - [33mwarn[39m: drops-weather.0 (31628) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:51.644  - [34mdebug[39m: drops-weather.0 (31628) States create System PubSub Client
+2024-02-05 12:14:51.644  - [34mdebug[39m: drops-weather.0 (31628) States create User PubSub Client
+2024-02-05 12:14:51.648  - [34mdebug[39m: drops-weather.0 (31628) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:14:51.652  - [31merror[39m: drops-weather.0 (31628) drops-weather.0 already running
+2024-02-05 12:14:51.653  - [33mwarn[39m: drops-weather.0 (31628) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2024-02-05 12:14:52.427  - [31merror[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code 7 (ADAPTER_ALREADY_RUNNING)
+2024-02-05 12:14:52.428  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Reset crash count of system.adapter.drops-weather.0, because non-crash exit
+2024-02-05 12:14:52.428  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Restart adapter system.adapter.drops-weather.0 because enabled
+2024-02-05 12:14:52.476  - [32minfo[39m: admin.0 (31601) Repository received successfully.
+2024-02-05 12:14:59.587  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:40278 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:14:59.589  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:47940 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:14:59.785  - [34mdebug[39m: Delete file drops-weather.admin/drops-weather.png
+2024-02-05 12:14:59.797  - [34mdebug[39m: Delete file drops-weather.admin/i18n/de/translations.json
+2024-02-05 12:14:59.800  - [34mdebug[39m: Delete file drops-weather.admin/i18n/en/translations.json
+2024-02-05 12:14:59.803  - [34mdebug[39m: Delete file drops-weather.admin/jsonConfig.json
+2024-02-05 12:14:59.848  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev object change system.adapter.drops-weather.0 (from: system.host.dev-drops-weather-iobroker-dev.cli)
+2024-02-05 12:14:59.857  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:14:59.857  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:14:59.862  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 0 vs own PID 28697
+2024-02-05 12:14:59.938  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 31800
+2024-02-05 12:14:59.940  - [33mwarn[39m: drops-weather.0 (28697) Got terminate signal. Checking desired PID: 31800 vs own PID 28697
+2024-02-05 12:15:00.521  - [34mdebug[39m: drops-weather.0 (31800) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:15:00.545  - [34mdebug[39m: drops-weather.0 (31800) Objects client ready ... initialize now
+2024-02-05 12:15:00.546  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:40290 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:15:00.564  - [33mwarn[39m: drops-weather.0 (31800) Unable to increase LUA script timeout: Error CONFIG-UNSUPPORTED for ["SET","lua-time-limit","10000"]
+2024-02-05 12:15:00.564  - [34mdebug[39m: drops-weather.0 (31800) Objects create System PubSub Client
+2024-02-05 12:15:00.565  - [34mdebug[39m: drops-weather.0 (31800) Objects create User PubSub Client
+2024-02-05 12:15:00.573  - [34mdebug[39m: drops-weather.0 (31800) Objects client initialize lua scripts
+2024-02-05 12:15:00.578  - [34mdebug[39m: drops-weather.0 (31800) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:15:00.591  - [34mdebug[39m: drops-weather.0 (31800) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:15:00.594  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:47962 Error from InMemDB: Error: CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:15:00.598  - [33mwarn[39m: drops-weather.0 (31800) Unable to enable Expiry Keyspace events from Redis Server: Error CONFIG-UNSUPPORTED for ["SET","notify-keyspace-events","Exe"]
+2024-02-05 12:15:00.599  - [34mdebug[39m: drops-weather.0 (31800) States create System PubSub Client
+2024-02-05 12:15:00.599  - [34mdebug[39m: drops-weather.0 (31800) States create User PubSub Client
+2024-02-05 12:15:00.606  - [34mdebug[39m: drops-weather.0 (31800) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:15:00.678  - [32minfo[39m: drops-weather.0 (31800) starting. Version 0.2.3 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.drops-weather, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:15:00.692  - [34mdebug[39m: drops-weather.0 (31800) getting system language
+2024-02-05 12:15:00.706  - [34mdebug[39m: drops-weather.0 (31800) de
+2024-02-05 12:15:00.779  - [34mdebug[39m: drops-weather.0 (28697) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:15:02.411  - [34mdebug[39m: drops-weather.0 (28697) Ok. Parsing data...
+2024-02-05 12:15:02.664  - [34mdebug[39m: drops-weather.0 (28697) weatherData found
+2024-02-05 12:15:02.664  - [34mdebug[39m: drops-weather.0 (28697) creating 5 min states
+2024-02-05 12:15:02.665  - [34mdebug[39m: drops-weather.0 (28697) creating 1 hour states
+2024-02-05 12:15:02.688  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_5min): [{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"},{"label":"14:15","value":"0"},{"label":"14:20","value":"0"}]
+2024-02-05 12:15:02.690  - [34mdebug[39m: drops-weather.0 (28697) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:15:02.694  - [32minfo[39m: drops-weather.0 (31800) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:15:02.694  - [34mdebug[39m: drops-weather.0 (31800) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:15:02.964  - [34mdebug[39m: drops-weather.0 (31800) Ok. Parsing data...
+2024-02-05 12:15:03.158  - [34mdebug[39m: drops-weather.0 (31800) weatherData found
+2024-02-05 12:15:03.158  - [34mdebug[39m: drops-weather.0 (31800) creating 5 min states
+2024-02-05 12:15:03.159  - [34mdebug[39m: drops-weather.0 (31800) creating 1 hour states
+2024-02-05 12:15:03.179  - [34mdebug[39m: drops-weather.0 (31800) Rain (data_5min): [{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"},{"label":"14:15","value":"0"},{"label":"14:20","value":"0"}]
+2024-02-05 12:15:03.180  - [34mdebug[39m: drops-weather.0 (31800) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:15:50.192  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39626 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:15:50.193  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev-Server Objects 127.0.0.1:39626 Error from InMemDB: Error: PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:15:50.194  - [31merror[39m: admin.0 (31601) Cannot unsubscribe "drops-weather.admin": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$jsonConfig.json$%$data"]
+2024-02-05 12:15:50.238  - [31merror[39m: admin.0 (31601) Cannot unsubscribe "drops-weather.admin": Error PUNSUBSCRIBE-UNSUPPORTED for namespace cfg.f.: Data=["cfg.f.drops-weather.admin$%$i18n/de/translations.json$%$data"]
+2024-02-05 12:15:50.252  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogFiles
+2024-02-05 12:15:50.259  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:16:08.989  - [32minfo[39m: admin.0 (31601) terminating http server on port 20426
+2024-02-05 12:16:09.000  - [32minfo[39m: host.dev-drops-weather-iobroker-dev received SIGINT
+2024-02-05 12:16:09.001  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev stop isStopping=0 isDaemon=false allInstancesStopped=false
+2024-02-05 12:16:09.001  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 (force=false, process=true)
+2024-02-05 12:16:09.001  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 (force=false, process=true)
+2024-02-05 12:16:09.021  - [32minfo[39m: drops-weather.0 (31800) terminating
+2024-02-05 12:16:09.021  - [32minfo[39m: drops-weather.0 (31800) Terminated (NO_ERROR): Without reason
+2024-02-05 12:16:09.023  - [32minfo[39m: admin.0 (31601) terminating
+2024-02-05 12:16:09.023  - [32minfo[39m: admin.0 (31601) Terminated (NO_ERROR): Without reason
+2024-02-05 12:16:09.025  - [32minfo[39m: drops-weather.0 (28697) Terminated (START_IMMEDIATELY_AFTER_STOP): Without reason
+2024-02-05 12:16:09.026  - [32minfo[39m: admin.0 (31601) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:16:09.029  - [32minfo[39m: drops-weather.0 (28697) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:16:09.030  - [32minfo[39m: drops-weather.0 (31800) Got terminate signal TERMINATE_YOURSELF
+2024-02-05 12:16:09.051  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev Error while trying to update capabilities after detecting new Node.js version: Command failed: sudo setcap cap_net_admin,cap_net_bind_service,cap_net_raw+epi /usr/bin/node
+sudo: a password is required
+
+2024-02-05 12:16:09.055  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.admin.0 send kill signal
+2024-02-05 12:16:09.056  - [32minfo[39m: host.dev-drops-weather-iobroker-dev stopInstance system.adapter.drops-weather.0 send kill signal
+2024-02-05 12:16:09.096  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev-Server States 127.0.0.1:41712 Redis Socket error: Error: read ECONNRESET
+2024-02-05 12:16:09.126  - [32minfo[39m: host.dev-drops-weather-iobroker-dev received SIGINT
+2024-02-05 12:16:09.133  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated due to SIGINT
+2024-02-05 12:16:09.133  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 terminated with code null ()
+2024-02-05 12:16:09.175  - [33mwarn[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated due to SIGINT
+2024-02-05 12:16:09.175  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 terminated with code null ()
+2024-02-05 12:16:09.175  - [32minfo[39m: host.dev-drops-weather-iobroker-dev All instances are stopped.
+2024-02-05 12:16:09.202  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Plugin sentry destroyed
+2024-02-05 12:16:09.253  - [32minfo[39m: host.dev-drops-weather-iobroker-dev terminated
+2024-02-05 12:18:57.990  - [32minfo[39m: host.dev-drops-weather-iobroker-dev iobroker.js-controller version 5.0.19 js-controller starting
+2024-02-05 12:18:57.992  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Copyright (c) 2014-2023 bluefox, 2014 hobbyquaker
+2024-02-05 12:18:57.993  - [32minfo[39m: host.dev-drops-weather-iobroker-dev hostname: dev-drops-weather-iobroker-dev, node: v16.17.1
+2024-02-05 12:18:57.993  - [32minfo[39m: host.dev-drops-weather-iobroker-dev ip addresses: 192.168.2.19 fda7:74ee:d30:ff7:c095:9eff:fe41:dd7c fe80::c095:9eff:fe41:dd7c
+2024-02-05 12:18:57.996  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev-Server Data File: /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/iobroker-data/objects.jsonl
+2024-02-05 12:18:58.291  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev-Server  Redis inMem-objects listening on port 9001
+2024-02-05 12:18:58.293  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:18:58.316  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Objects client ready ... initialize now
+2024-02-05 12:18:58.363  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Objects create System PubSub Client
+2024-02-05 12:18:58.372  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Objects client initialize lua scripts
+2024-02-05 12:18:58.378  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:18:58.429  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev-Server Data File: /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/iobroker-data/states.jsonl
+2024-02-05 12:18:58.457  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev-Server  Redis inMem-states listening on port 9000
+2024-02-05 12:18:58.458  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:18:58.503  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev States create System PubSub Client
+2024-02-05 12:18:58.552  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev States connected to redis: 127.0.0.1:24426
+2024-02-05 12:18:58.586  - [32minfo[39m: host.dev-drops-weather-iobroker-dev connected to Objects and States
+2024-02-05 12:18:58.596  - [32minfo[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of host
+2024-02-05 12:18:58.597  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Node.js version has changed from unknown to 16.17.1
+2024-02-05 12:18:58.670  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Plugin sentry Initialize Plugin (enabled=true)
+2024-02-05 12:18:58.672  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Plugin sentry Sentry Plugin disabled for this process because sending of statistic data is disabled for the system
+2024-02-05 12:18:58.685  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.nodeCurrent"
+2024-02-05 12:18:58.687  - [32minfo[39m: host.dev-drops-weather-iobroker-dev 2 instances found
+2024-02-05 12:18:58.688  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev check instance "system.adapter.admin.0" for host "dev-drops-weather-iobroker-dev"
+2024-02-05 12:18:58.690  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev check instance "system.adapter.drops-weather.0" for host "dev-drops-weather-iobroker-dev"
+2024-02-05 12:18:58.691  - [32minfo[39m: host.dev-drops-weather-iobroker-dev starting 2 instances
+2024-02-05 12:18:58.696  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.nodeNewest"
+2024-02-05 12:18:58.705  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.admin.0
+2024-02-05 12:18:58.705  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance admin.0 loglevel=info, compact=false
+2024-02-05 12:18:58.715  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.admin.0 started with pid 32457
+2024-02-05 12:18:58.747  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.nodeNewestNext"
+2024-02-05 12:18:58.749  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.npmCurrent"
+2024-02-05 12:18:58.750  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.npmNewest"
+2024-02-05 12:18:58.753  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Delete state "system.host.dev-drops-weather-iobroker-dev.versions.npmNewestNext"
+2024-02-05 12:18:58.754  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Some obsolete host states deleted.
+2024-02-05 12:18:59.291  - [32minfo[39m: admin.0 (32457) Plugin sentry Sentry Plugin disabled for this process because sending of statistic data is disabled for the system
+2024-02-05 12:18:59.333  - [32minfo[39m: admin.0 (32457) starting. Version 6.13.16 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.admin, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:18:59.352  - [32minfo[39m: admin.0 (32457) requesting all objects
+2024-02-05 12:18:59.521  - [32minfo[39m: admin.0 (32457) received all objects
+2024-02-05 12:18:59.610  - [32minfo[39m: admin.0 (32457) Request actual repository...
+2024-02-05 12:18:59.613  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:18:59.706  - [32minfo[39m: admin.0 (32457) socket.io server listening on port 20426
+2024-02-05 12:18:59.707  - [32minfo[39m: admin.0 (32457) http server listening on port 20426
+2024-02-05 12:18:59.707  - [32minfo[39m: admin.0 (32457) Use link "http://127.0.0.1:20426" to configure.
+2024-02-05 12:18:59.708  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:18:59.754  - [32minfo[39m: host.dev-drops-weather-iobroker-dev Updating repository "beta" under "http://download.iobroker.net/sources-dist-latest.json"
+2024-02-05 12:19:00.682  - [32minfo[39m: admin.0 (32457) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:19:01.148  - [32minfo[39m: admin.0 (32457) Repository received successfully.
+2024-02-05 12:19:02.699  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev added notifications configuration of system.adapter.drops-weather.0
+2024-02-05 12:19:02.700  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev startInstance drops-weather.0 loglevel=debug, compact=false
+2024-02-05 12:19:02.716  - [32minfo[39m: host.dev-drops-weather-iobroker-dev instance system.adapter.drops-weather.0 started with pid 32484
+2024-02-05 12:19:03.092  - [34mdebug[39m: drops-weather.0 (32484) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:19:03.116  - [34mdebug[39m: drops-weather.0 (32484) Objects client ready ... initialize now
+2024-02-05 12:19:03.123  - [34mdebug[39m: drops-weather.0 (32484) Objects create System PubSub Client
+2024-02-05 12:19:03.124  - [34mdebug[39m: drops-weather.0 (32484) Objects create User PubSub Client
+2024-02-05 12:19:03.133  - [34mdebug[39m: drops-weather.0 (32484) Objects client initialize lua scripts
+2024-02-05 12:19:03.136  - [34mdebug[39m: drops-weather.0 (32484) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:19:03.141  - [34mdebug[39m: drops-weather.0 (32484) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:19:03.144  - [34mdebug[39m: drops-weather.0 (32484) States create System PubSub Client
+2024-02-05 12:19:03.144  - [34mdebug[39m: drops-weather.0 (32484) States create User PubSub Client
+2024-02-05 12:19:03.149  - [34mdebug[39m: drops-weather.0 (32484) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:19:03.210  - [32minfo[39m: drops-weather.0 (32484) starting. Version 0.2.3 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.drops-weather, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:19:03.224  - [34mdebug[39m: drops-weather.0 (32484) getting system language
+2024-02-05 12:19:03.231  - [34mdebug[39m: drops-weather.0 (32484) de
+2024-02-05 12:19:04.767  - [34mdebug[39m: drops-weather.0 (32501) Redis Objects: Use Redis connection: 127.0.0.1:26426
+2024-02-05 12:19:04.790  - [34mdebug[39m: drops-weather.0 (32501) Objects client ready ... initialize now
+2024-02-05 12:19:04.798  - [34mdebug[39m: drops-weather.0 (32501) Objects create System PubSub Client
+2024-02-05 12:19:04.799  - [34mdebug[39m: drops-weather.0 (32501) Objects create User PubSub Client
+2024-02-05 12:19:04.808  - [34mdebug[39m: drops-weather.0 (32501) Objects client initialize lua scripts
+2024-02-05 12:19:04.810  - [34mdebug[39m: drops-weather.0 (32501) Objects connected to redis: 127.0.0.1:26426
+2024-02-05 12:19:04.816  - [34mdebug[39m: drops-weather.0 (32501) Redis States: Use Redis connection: 127.0.0.1:24426
+2024-02-05 12:19:04.819  - [34mdebug[39m: drops-weather.0 (32501) States create System PubSub Client
+2024-02-05 12:19:04.820  - [34mdebug[39m: drops-weather.0 (32501) States create User PubSub Client
+2024-02-05 12:19:04.858  - [34mdebug[39m: drops-weather.0 (32501) States connected to redis: 127.0.0.1:24426
+2024-02-05 12:19:04.913  - [32minfo[39m: drops-weather.0 (32501) starting. Version 0.2.3 in /home/inbux/ioBroker-dev/ioBroker.drops-weather/.dev-server/default/node_modules/iobroker.drops-weather, node: v16.17.1, js-controller: 5.0.19
+2024-02-05 12:19:04.927  - [34mdebug[39m: drops-weather.0 (32501) getting system language
+2024-02-05 12:19:04.935  - [34mdebug[39m: drops-weather.0 (32501) de
+2024-02-05 12:19:05.225  - [32minfo[39m: drops-weather.0 (32484) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:19:05.226  - [34mdebug[39m: drops-weather.0 (32484) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:19:05.481  - [34mdebug[39m: drops-weather.0 (32484) Ok. Parsing data...
+2024-02-05 12:19:05.665  - [34mdebug[39m: drops-weather.0 (32484) weatherData found
+2024-02-05 12:19:05.666  - [34mdebug[39m: drops-weather.0 (32484) creating 5 min states
+2024-02-05 12:19:05.666  - [34mdebug[39m: drops-weather.0 (32484) creating 1 hour states
+2024-02-05 12:19:05.678  - [34mdebug[39m: drops-weather.0 (32484) Rain (data_5min): [{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"},{"label":"14:15","value":"0"},{"label":"14:20","value":"0"}]
+2024-02-05 12:19:05.679  - [34mdebug[39m: drops-weather.0 (32484) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:19:06.929  - [32minfo[39m: drops-weather.0 (32501) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:19:06.930  - [34mdebug[39m: drops-weather.0 (32501) Reading data from : https://www.drops.live/de-de/city/2807900
+2024-02-05 12:19:07.166  - [34mdebug[39m: drops-weather.0 (32501) Ok. Parsing data...
+2024-02-05 12:19:07.354  - [34mdebug[39m: drops-weather.0 (32501) weatherData found
+2024-02-05 12:19:07.354  - [34mdebug[39m: drops-weather.0 (32501) creating 5 min states
+2024-02-05 12:19:07.355  - [34mdebug[39m: drops-weather.0 (32501) creating 1 hour states
+2024-02-05 12:19:07.366  - [34mdebug[39m: drops-weather.0 (32501) Rain (data_5min): [{"label":"12:15","value":"0"},{"label":"12:20","value":"0"},{"label":"12:25","value":"0"},{"label":"12:30","value":"0"},{"label":"12:35","value":"0"},{"label":"12:40","value":"0"},{"label":"12:45","value":"0"},{"label":"12:50","value":"0"},{"label":"12:55","value":"0"},{"label":"13:00","value":"0"},{"label":"13:05","value":"0"},{"label":"13:10","value":"0"},{"label":"13:15","value":"0"},{"label":"13:20","value":"0"},{"label":"13:25","value":"0"},{"label":"13:30","value":"0"},{"label":"13:35","value":"0"},{"label":"13:40","value":"0"},{"label":"13:45","value":"0"},{"label":"13:50","value":"0"},{"label":"13:55","value":"0"},{"label":"14:00","value":"0"},{"label":"14:05","value":"0"},{"label":"14:10","value":"0"},{"label":"14:15","value":"0"},{"label":"14:20","value":"0"}]
+2024-02-05 12:19:07.368  - [34mdebug[39m: drops-weather.0 (32501) Rain (data_1h): [{"label":"Mo 15:00","value":"0"},{"label":"Mo 16:00","value":"0"},{"label":"Mo 17:00","value":"0"},{"label":"Mo 18:00","value":"0"},{"label":"Mo 19:00","value":"0"},{"label":"Mo 20:00","value":"0"},{"label":"Mo 21:00","value":"0"},{"label":"Mo 22:00","value":"0"},{"label":"Mo 23:00","value":"0"},{"label":"Di 00:00","value":"0"},{"label":"Di 01:00","value":"0.1"},{"label":"Di 02:00","value":"0"},{"label":"Di 03:00","value":"0"},{"label":"Di 04:00","value":"0"},{"label":"Di 05:00","value":"0"},{"label":"Di 06:00","value":"0.1"},{"label":"Di 07:00","value":"0"},{"label":"Di 08:00","value":"0"},{"label":"Di 09:00","value":"0"},{"label":"Di 10:00","value":"0"},{"label":"Di 11:00","value":"0"},{"label":"Di 12:00","value":"0"},{"label":"Di 13:00","value":"0"},{"label":"Di 14:00","value":"0.2"}]
+2024-02-05 12:19:11.746  - [32minfo[39m: admin.0 (32457) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:19:12.730  - [32minfo[39m: admin.0 (32457) ==> Connected system.user.admin from 127.0.0.1
+2024-02-05 12:19:12.816  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getRepository
+2024-02-05 12:19:13.381  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getInstalled
+2024-02-05 12:19:13.497  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getNotifications
+2024-02-05 12:19:13.568  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogFiles
+2024-02-05 12:19:14.420  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getLogs
+2024-02-05 12:19:18.446  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getHostInfo
+2024-02-05 12:19:18.585  - [34mdebug[39m: host.dev-drops-weather-iobroker-dev Incoming Host message getDiagData
+2024-02-05 12:19:31.745  - [32minfo[39m: admin.0 (32457) <== Disconnect system.user.admin from 127.0.0.1 
