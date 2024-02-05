@@ -1,8 +1,34 @@
 {
 	"common": {
 		"name": "drops-weather",
-		"version": "0.2.1",
+		"version": "0.2.3",
 		"news": {
+			"0.2.3": {
+				"en": "updated dependencies",
+				"de": "aktualisierte abhängigkeiten",
+				"ru": "обновленные зависимости",
+				"pt": "dependências atualizadas",
+				"nl": "bijgewerkte afhankelijkheden",
+				"fr": "dépendances actualisées",
+				"it": "dipendenze aggiornate",
+				"es": "dependencias actualizadas",
+				"pl": "zaktualizowane zależności",
+				"uk": "оновлені залежності",
+				"zh-cn": "更新的依赖关系"
+			},
+			"0.2.2": {
+				"en": "changed URL from drops.live to www.drops.live (thanks to Marc-Berg)\nsmall changes because of axios update\nchanged units to mm/h",
+				"de": "geänderte URL von drop.live bis www.drops.live (Danke an Marc-Berg)\nkleine änderungen wegen axios update\ngeänderte einheiten in mm/h",
+				"ru": "изменен URL с drops.live на www.drops.live (благодаря Марку-Бергу)\nнебольшие изменения из-за обновления аксиоса\nизмененные единицы на мм/ч",
+				"pt": "uRL alterada de gotas.live para www.drops.live (Obrigado a Marc-Berg)\npequenas mudanças por causa da atualização de axios\nunidades alteradas para mm/h",
+				"nl": "veranderd URL van drops.live naar www.drops.live (met dank aan Marc-Berg)\nkleine veranderingen als gevolg van axios update\nveranderd eenheden naar mm/h",
+				"fr": "changer l'URL de drops.live vers www.drops.live (merci à Marc-Berg)\npetits changements en raison de la mise à jour axios\nchangement d ' unités en mm/h",
+				"it": "modificato URL da drop.live a www.drops.live (grazie a Marc-Berg)\npiccoli cambiamenti a causa di aggiornamento assio\nunità modificate in mm/h",
+				"es": "cambió URL de drops.live a www.drops.live (gracias a Marc-Berg)\npequeños cambios debido a la actualización de axios\nunidades modificadas a mm/h",
+				"pl": "zmieniony adres URL z drops.live na www.drops.live (dzięki Marc- Berg)\nniewielkie zmiany spowodowane aktualizacją aksjosu\nzmiana jednostek na mm / h",
+				"uk": "змінено URL з крапель.live на www.drops.live (до Марка-Берг)\nнезначні зміни через оновлення осей\nзмінені юніти до мм/год",
+				"zh-cn": "将 URL 从 drops. live 更改为 www.drops. live (感谢马克-伯格)\n由于 轴更新导致的小变化\n单位改为毫米/小时"
+			},
 			"0.2.1": {
 				"en": "added actualRain\nreading system language for weekdays localization\nchanged rainStartsAt to timestamp\nchanged most log messages to debug to keep log cleaner\nupdated README.md",
 				"de": "tatsächlich Regen\nlesesystemsprache für wochentage lokalisierung\ngewechselt RegenStarts Zur Zeitstempel\ndie meisten log-nachrichten zum debug geändert, um log cleaner zu halten\naktualisiert README.md",
@@ -118,8 +144,7 @@
 		]
 	},
 	"native": {
-		"location": "Berlin",
-		"useSystemLocation": true
+		"citycode": ""
 	},
 	"objects": [],
 	"instanceObjects": [
@@ -176,29 +201,6 @@
 					"es": "JSON_Chart_Rain",
 					"pl": "JSON_Chart_Rain",
 					"zh-cn": "JSON_Chart_Rain"
-				},
-				"type": "json",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "data_5min.chartTemperature",
-			"type": "state",
-			"common": {
-				"name": {
-					"en": "JSON_Chart_Temperature",
-					"de": "JSON_Chart_Temperatur",
-					"ru": "JSON_Chart_Temperature",
-					"pt": "JSON_Chart_Temperature",
-					"nl": "JSON_Chart_Temperature",
-					"fr": "JSON_Chart_Temperature",
-					"it": "JSON_Chart_Temperature",
-					"es": "JSON_Chart_Temperature",
-					"pl": "JSON_Chart_Temperature",
-					"zh-cn": "JSON_Chart_Temperature"
 				},
 				"type": "json",
 				"role": "text",
@@ -347,29 +349,7 @@
 			},
 			"native": {}
 		},
-		{
-			"_id": "data_5min.tempdata",
-			"type": "state",
-			"common": {
-				"name": {
-					"en": "Temperature",
-					"de": "Temperatur",
-					"ru": "Temperature",
-					"pt": "Temperature",
-					"nl": "Temperature",
-					"fr": "Temperature",
-					"it": "Temperature",
-					"es": "Temperature",
-					"pl": "Temperature",
-					"zh-cn": "Temperature"
-				},
-				"type": "json",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
+
 		{
 			"_id": "data_1h.chartRain",
 			"type": "state",
@@ -385,29 +365,6 @@
 					"es": "JSON_Chart_Rain",
 					"pl": "JSON_Chart_Rain",
 					"zh-cn": "JSON_Chart_Rain"
-				},
-				"type": "json",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "data_1h.chartTemperature",
-			"type": "state",
-			"common": {
-				"name": {
-					"en": "JSON_Chart_Temperature",
-					"de": "JSON_Chart_Temperatur",
-					"ru": "JSON_Chart_Temperature",
-					"pt": "JSON_Chart_Temperature",
-					"nl": "JSON_Chart_Temperature",
-					"fr": "JSON_Chart_Temperature",
-					"it": "JSON_Chart_Temperature",
-					"es": "JSON_Chart_Temperature",
-					"pl": "JSON_Chart_Temperature",
-					"zh-cn": "JSON_Chart_Temperature"
 				},
 				"type": "json",
 				"role": "text",
@@ -551,29 +508,6 @@
 				"type": "number",
 				"unit": "mm/h",
 				"role": "value.rain",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "data_1h.tempdata",
-			"type": "state",
-			"common": {
-				"name": {
-					"en": "Temperature",
-					"de": "Temperatur",
-					"ru": "Temperature",
-					"pt": "Temperature",
-					"nl": "Temperature",
-					"fr": "Temperature",
-					"it": "Temperature",
-					"es": "Temperature",
-					"pl": "Temperature",
-					"zh-cn": "Temperature"
-				},
-				"type": "json",
-				"role": "text",
 				"read": true,
 				"write": false
 			},
