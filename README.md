@@ -39,6 +39,16 @@ You will find your city code in the URL:
 In this example you will find 6573 for Berlin.
 
 ## Changelog
+
+<!--
+	Placeholder for the next version (at the beginning of the line):
+	### **WORK IN PROGRESS**
+-->
+
+### **WORK IN PROGRESS**
+
+-   (inbux) store weather text in labeltext state
+
 ### 0.3.1 (2024-02-05)
 
 -

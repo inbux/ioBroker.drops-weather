@@ -64,13 +64,15 @@ class DropsWeather extends utils.Adapter {
 				'User-Agent': 'Mozilla',
 			},
 		});
+
 		// wait some time, because getting system configuration location take some time
 		// not really a smart way just to wait, but how can it be done ?
 		starttimeout = setTimeout(() => {
 			if (this.config.citycode === null || this.config.citycode === '') {
 				this.log.error(`City code not set - please check instance configuration of ${this.namespace}`);
 			} else {
-				this.log.info('Reading data from : https://www.drops.live/de-de/city/' + this.config.citycode);
+				// @ts-ignore
+				this.log.info('Reading data from :  ' + this.drops.defaults.baseURL + this.config.citycode);
 				this.readDataFromServer();
 			}
 		}, 2000);
@@ -105,7 +107,9 @@ class DropsWeather extends utils.Adapter {
 	async readDataFromServer() {
 		try {
 			// @ts-ignore
-			this.log.debug('Reading data from : https://www.drops.live/de-de/city/' + this.config.citycode);
+			if (dayjs.locale() === 'en') this.drops.defaults.baseURL = 'https://www.drops.live/en-gb/city/';
+			// @ts-ignore
+			this.log.debug('Reading data from : ' + this.drops.defaults.baseURL + this.config.citycode);
 			let weatherdataFound = false;
 
 			// @ts-ignore
@@ -114,6 +118,13 @@ class DropsWeather extends utils.Adapter {
 				this.log.debug('Ok. Parsing data...');
 				// if GET was successful...
 				const $ = cheerio.load(response.data);
+
+				$('.text-sm.bg-sub-menu-bg.py-1.px-2.w-full.rounded-lg.leading-6').each((_, e) => {
+					const row = $(e).text();
+					this.log.debug(row);
+					this.setStateAsync('data_1h.labeltext', { val: row, ack: true });
+				});
+
 				$('script').each((_, e) => {
 					const row = $(e).text();
 					// series data found ?
