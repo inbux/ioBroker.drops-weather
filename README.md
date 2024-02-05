@@ -42,7 +42,7 @@ In this example you will find 6573 for Berlin.
 
 ### **WORK IN PROGRESS**
 
-### breaking changes in drops.live homepage (2024-02-05)
+breaking changes in drops.live homepage (2024-02-05)
 
 -   (inbux) parsing of drops.live homepage updated
 -   (inbux) GPS position is not longer supported on the website, added city code in configuration
