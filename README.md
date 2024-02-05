@@ -29,16 +29,20 @@ The 5 minutes and 1h data is stored in different states.
 ## Configuration
 
 GPS position is not longer available on the drops.live website.
+
 You know need a city code of your location or city. To get this code, just enter your city name (or use your location) at https://www.drops.live .
+
 You will find your city code in the URL:
+
 ![Logo](img/citycode.png)
+
 In this example you will find 6573 for Berlin.
 
 ## Changelog
 
 ### **WORK IN PROGRESS**
 
-## breaking changes in drops.live homepage (2024-02-05)
+### breaking changes in drops.live homepage (2024-02-05)
 
 -   (inbux) parsing of drops.live homepage updated
 -   (inbux) GPS position is not longer supported on the website, added city code in configuration
